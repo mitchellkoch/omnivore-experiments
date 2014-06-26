@@ -9,3 +9,10 @@ pom.xml.asc
 .lein-repl-history
 .lein-plugins/
 .lein-failures
+
+/data/AIDA-YAGO2-dataset.tsv
+
+/.nrepl-port
+
+/data/aida-yago2-couchdb-docs.json
+/data/aida-yago2-docs.json

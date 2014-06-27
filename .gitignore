@@ -10,9 +10,12 @@ pom.xml.asc
 .lein-plugins/
 .lein-failures
 
-/data/AIDA-YAGO2-dataset.tsv
-
 /.nrepl-port
+/.nfs*
+/test.err
 
-/data/aida-yago2-couchdb-docs.json
-/data/aida-yago2-docs.json
+/freebase-api-key.txt
+/freebase-caches
+
+
+/data/*

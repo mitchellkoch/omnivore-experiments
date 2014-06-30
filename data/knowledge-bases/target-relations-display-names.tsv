@@ -1,0 +1,105 @@
+/people/person/gender	has gender
+/people/person/place_of_birth	was born in
+/people/person/profession	has profession
+/people/person/nationality	has nationality
+/people/person/education|/education/education/institution	attended
+/people/person/places_lived|/people/place_lived/location	lived in
+/people/deceased_person/place_of_death	died in
+/people/person/religion	has religion
+/organization/organization/headquarters|/location/mailing_address/citytown	has headquarters in city/town
+/people/family_member/family|/people/family/members	has family member
+/people/person/parents	has parent
+/people/deceased_person/cause_of_death	has cause of death
+/people/person/ethnicity	has ethnicity
+/organization/organization/headquarters/location/mailing_address/postal_code|/location/postal_code/country	has headquarters in country
+/organization/organization/headquarters|/location/mailing_address/state_province_region	has headquarters in state
+/people/person/employment_history|/business/employment_tenure/company	was employed by
+/people/person/spouse_s|/people/marriage/spouse	was married to
+/people/person/sibling_s|/people/sibling_relationship/sibling	has sibling
+/business/business_operation/industry	in industry
+/organization/organization/board_members|/organization/organization_board_membership/member	member of
+/organization/organization/parent|/organization/organization_relationship/parent	has parent organization
+/people/person/employment_history|/business/employment_tenure/title	has had title
+/organization/organization_founder/organizations_founded	founded
+/organization/organization/sectors	operates in sector
+/organization/organization/geographic_scope	has geographic scope
+/organization/membership_organization/members|/organization/organization_membership/member	has member organization
+/organization/organization/leadership|/organization/leadership/person	has leader
+/people/person/languages	knows language
+/organization/organization/place_founded	was founded in
+/people/deceased_person/place_of_burial	was buried in
+/organization/organization/legal_structure	has legal structure
+/people/family_member/family	has family
+/organization/organization/organization_type	has organization type
+/people/ethnicity/geographic_distribution	has geographic distribution
+/people/ethnicity/included_in_group	included in group
+/organization/organization/advisors	has advisor
+/people/cause_of_death/parent_cause_of_death	has parent cause of death
+/people/profession/specialization_of	is a specialization of
+/people/profession/specializations	has specialization
+/business/industry/parent_industry	has parent industry
+/organization/organization/partnerships	has partner
+/people/family_name/people_with_this_family_name	is family name of
+/people/deceased_person/place_of_cremation	was cremated in
+/business/consumer_product/brand	has brand
+/people/profession/part_of_professional_field	is part of professional field
+/business/brand/parent_brand	has parent brand
+/people/chinese_ethnic_group/autonomous_prefectures	has autonomous prefectures
+/business/defunct_company/reason_for_ceasing_operations	had reason for ceasing operations
+/people/family/founder	has family founder
+/people/chinese_ethnic_group/autonomous_counties	has autonomous counties
+/business/business_location/parent_company	has parent company
+/organization/organization/locations	has location
+/business/consumer_product/product_line	part of product line
+/business/business_location/in_shopping_center	in shopping center
+/business/product_line/brand	has brand
+/business/product_line/parent_product_line	has parent product line
+/people/profession/corresponding_type	has corresponding type
+/organization/organization/committees	has committee
+/business/product_with_ingredients/ingredients	has ingredients
+/people/profession/represented_by_trade_unions	represented by trade unions
+/business/consumer_product/category	consumer product has category
+/business/product_line/category	product line has category
+/business/product_ingredient/derived_from	derived from
+/people/american_indian_group/us_indian_reservations	has US Indian reservation
+/people/chinese_ethnic_group/autonomous_regions	has autonomous region
+/people/family/rise_to_prominence	has rise to prominence
+/organization/club_interest/clubs	has club
+/business/product_line/themes	has theme
+/business/competitive_space/related_industries	has related industries
+/business/consumer_product/themes	has theme
+/business/business_operation/major_customer	has major customer
+/business/customer/supplier	has supplier
+/business/product_line/category	has category
+/business/industry/trade_unions	has trade union
+/organization/organization/companies_acquired|/business/acquisition/company_acquired	acquired
+actorStarredInMovie	starred in
+athleteCoach	has coach
+athleteHomeStadium	has home stadium
+athletePlaysForTeam	plays for team
+athletePlaysInLeague	play in league
+athletePlaysSport	plays sport
+bookWriter	was written by
+ceoOf	is CEO of
+coachesInLeague	coaches in league
+coachesTeam	coaches team
+competesWith	competes with
+hasOfficeInCountry	has office in country
+leagueStadiums	league has stadium
+musicArtistGenre	artist of genre
+musicianInMusicArtist	part of
+musicianPlaysInstrument	plays instrument
+newspaperInCity	newspaper in city
+radioStationInCity	radio station in city
+sportUsesEquipment	sport uses equipment
+sportUsesStadium	sport uses stadium
+teamHomeStadium	has home stadium
+teammate	has teammate
+teamPlaysAgainstTeam	plays against team
+teamPlaysInCity	plays in city
+teamPlaysInLeague	plays in league
+teamPlaysSport	plays sport
+televisionStationAffiliatedWith	affiliated with
+televisionStationInCity	TV station in city
+visualArtistArtForm	uses art form
+visualArtistArtMovement	artist part of movement

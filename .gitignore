@@ -18,4 +18,8 @@ pom.xml.asc
 /freebase-caches
 
 
-/data/*
+/data/AIDA-YAGO2-dataset.tsv
+/data/aida-yago2-docs.json
+/data/aida-yago2-docs-preprocessed
+*.gz
+data/multir-extractor*

@@ -1,0 +1,23 @@
+[ {
+  "answers" : [ {
+    "relation_display_name" : "has member organization",
+    "source" : "KB Matching",
+    "relation" : "/organization/membership_organization/members|/organization/organization_membership/member"
+  } ],
+  "args" : [ {
+    "sent_idx" : 4,
+    "sent_tok_span" : [ 5, 7 ],
+    "mention_text" : "European Union",
+    "mid" : "/m/02jxk",
+    "arg_from" : "NEL",
+    "ner_type" : "ORGANIZATION"
+  }, {
+    "sent_idx" : 4,
+    "sent_tok_span" : [ 0, 1 ],
+    "mention_text" : "Germany",
+    "mid" : "/m/0345h",
+    "arg_from" : "NEL",
+    "ner_type" : "LOCATION"
+  } ],
+  "doc_name" : "AIDA-YAGO2-DOC1"
+} ]

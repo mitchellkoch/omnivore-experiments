@@ -21,6 +21,7 @@
            [edu.stanford.nlp.util Pair Triple]
            [edu.knowitall.tool.chunk OpenNlpChunker]
            [opennlp.tools.chunker ChunkerME]
+           [edu.washington.multirframework.featuregeneration FeatureGeneration DefaultFeatureGenerator]
            [edu.washington.multirframework.argumentidentification ArgumentIdentification SententialInstanceGeneration RelationMatching NERArgumentIdentification NERRelationMatching DefaultSententialInstanceGeneration NELAndNERArgumentIdentification NELRelationMatching NELAndCorefArgumentIdentification NELAndCorefArgumentIdentification$CorefArgument CorefSententialInstanceGeneration NELArgumentIdentification]
            [edu.washington.multirframework.knowledgebase KnowledgeBase]
            [edu.washington.multir.development Preprocess]
@@ -128,6 +129,13 @@
       (write-to-file (io/file out-dir (str (:doc-name doc) ".ser.gz")) 
                      (preprocess-doc doc)))))
 
+(defn doc-name->number [doc-name]
+  (when doc-name
+    (Integer/parseInt (second (re-matches #".*?(\d+)$" doc-name)))))
+
+(defn doc-file->number [doc-file]
+  (doc-name->number (fs/base-name doc-file ".ser.gz")))
+
 (defn extract-relinsts-by-kb-matching [kb [doc-name doc]]
   (let [^ArgumentIdentification arg-ident (NELAndNERArgumentIdentification/getInstance)
         ^SententialInstanceGeneration sent-inst-gen (DefaultSententialInstanceGeneration/getInstance)
@@ -153,12 +161,82 @@
                  :arg-from (if (instance? KBArgument arg) "NEL" "NER")
                  :ner-type (->> ner-mentions
                                 (filter #(= sent-tok-span (:sent-tok-span %)))
-                                first :ner-tag))))))))
+                                first :ner-tag)))
+        :source "KB Matching")))))
+
+(defn doc-obj-name-pairs [docs-dir]
+  (let [doc-files (sort-by doc-file->number (fs/glob (str docs-dir "/*.ser.gz")))
+        doc-names (map #(fs/base-name % ".ser.gz") doc-files)
+        doc-objs (map read-from-file doc-files)]
+    (map vector doc-names doc-objs)))
 
 (defn extract-relinsts-by-kb-matching-bulk [kb-facts-file kb-entity-names-file target-relations-file docs-dir]
-  (let [doc-files (sort-by str (fs/glob (str docs-dir "/*.ser.gz")))
-        doc-names (map #(fs/base-name % ".ser.gz") doc-files)
-        doc-objs (map read-from-file doc-files)
-        docs (map vector doc-names doc-objs)
-        kb (KnowledgeBase. (str kb-facts-file) (str kb-entity-names-file) (str target-relations-file))]
-    (aconcat (pmap (partial extract-relinsts-by-kb-matching kb) docs))))
+  (let [kb (KnowledgeBase. (str kb-facts-file) (str kb-entity-names-file) (str target-relations-file))]
+    (aconcat (pmap (partial extract-relinsts-by-kb-matching kb) 
+                   (doc-obj-name-pairs docs-dir)))))
+
+(defn extract-relinsts [^DocumentExtractor doc-extractor
+                        ^ArgumentIdentification arg-ident
+                        ^SententialInstanceGeneration sent-inst-gen
+                        source-name
+                        [doc-name doc]]
+  (for [[sentidx sentence] (indexed (get-sentences doc))
+        ^Pair sent-inst (let [args (.identifyArguments arg-ident doc sentence)]
+                          (.generateSententialInstances sent-inst-gen args sentence))
+        :let [ner-mentions (sentence-ner-mentions sentence sentidx)
+              ^Pair extr-res (.extractFromSententialInstanceWithFeatureScores doc-extractor (.first sent-inst) (.second sent-inst) sentence doc)]
+        :when extr-res
+        :let [^Triple extr-score-triple (.first extr-res)
+              relation (.first extr-score-triple)]
+        :when (not= "NA" relation)]
+    (array-map 
+     :doc-name doc-name
+     :relation relation
+     :score (.third extr-score-triple)
+     :args (for [^Argument arg [(.first sent-inst) (.second sent-inst)]
+                 :let [sent-tok-span (sent-char-span->sent-tok-span sentence [(.getStartOffset arg) (.getEndOffset arg)])]]
+             (array-map
+              :sent-idx sentidx
+              :sent-tok-span sent-tok-span
+              :text (.getArgName arg)
+              :mid (when (instance? KBArgument arg) (.getKbId ^KBArgument arg))
+              :arg-from (if (instance? KBArgument arg) "NEL" "NER")
+              :ner-type (->> ner-mentions
+                             (filter #(= sent-tok-span (:sent-tok-span %)))
+                             first :ner-tag)))
+     :source source-name)))
+
+(def ner-type->fb-type
+  {"PERSON" #(.startsWith ^String % "/people/")
+   "ORGANIZATION" #(or (.startsWith ^String % "/organization/")
+                       (.startsWith ^String % "/business/"))
+   "LOCATION" #(.startsWith ^String % "/location/")})
+
+(defn postprocess-for-type-constraints [target-relation-types relinsts]
+  (for [{:keys [doc-name relation args] :as relinst} relinsts
+        :let [allowed-types (target-relation-types relation)
+              [arg1-types arg2-types] (for [{:keys [mid ner-type]} args]
+                                        (if mid
+                                          (fb/entity-mid->type-set mid)
+                                          (if-let [t (ner-type->fb-type ner-type)]
+                                            t
+                                            (constantly true))))]
+        :when (some (fn [{:keys [in-type out-type]}]
+                      (and (arg1-types in-type)
+                           (arg2-types out-type)))
+                    allowed-types)]
+    relinst))
+
+(defn extract-relinsts-bulk [multir-extractor-dir target-relation-types-file docs-dir]
+  (let [{:keys [ai-class si-classes multir-dirs typesig-strs extractor-name]} (first (read-from-file (io/file multir-extractor-dir "properties.edn")))
+        
+        target-relation-types (into {} (read-from-file target-relation-types-file))]
+    (->> (for [[si-class multir-dir typesig-str] (map vector si-classes multir-dirs typesig-strs)
+               :let [doc-extractor (DocumentExtractor. (str (io/file multir-extractor-dir multir-dir)) (DefaultFeatureGenerator.) nil nil)
+                     arg-ident (NELAndNERArgumentIdentification/getInstance)
+                     sent-inst-gen (eval `(. ~si-class getInstance))]]
+           (aconcat (pmap (partial extract-relinsts doc-extractor arg-ident sent-inst-gen (str "MultiR-" extractor-name ":" typesig-str))
+                          (doc-obj-name-pairs docs-dir))))
+         aconcat
+         (sort-by (comp doc-name->number :doc-name))
+         (postprocess-for-type-constraints target-relation-types))))

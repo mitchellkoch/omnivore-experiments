@@ -12,6 +12,7 @@
                  [im.chit/iroh "0.1.5"]
                  [alandipert/enduro "1.1.5"]
                  [slingshot "0.10.3"]
+                 [org.flatland/ordered "1.5.2"]
 
                  ;; For MultirExperiments:
                  [org.apache.commons/commons-io "1.3.2"]

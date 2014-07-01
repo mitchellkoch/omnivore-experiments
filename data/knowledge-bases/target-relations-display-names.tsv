@@ -87,7 +87,7 @@ competesWith	competes with
 hasOfficeInCountry	has office in country
 leagueStadiums	league has stadium
 musicArtistGenre	artist of genre
-musicianInMusicArtist	part of
+musicianInMusicArtist	musician part of artist
 musicianPlaysInstrument	plays instrument
 newspaperInCity	newspaper in city
 radioStationInCity	radio station in city

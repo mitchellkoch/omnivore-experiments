@@ -5,16 +5,13 @@
         omnivore-experiments.util)
   (:require [clojure.string :as str]
             [omnivore-experiments.aida :as aida]
-            [omnivore-experiments.multir :as multir]
-            [wharf.core :as wharf]))
+            [omnivore-experiments.multir :as multir]))
 
 (set-fipe-dir! "data")
 
 ;; Ready to import into CouchDB
 (deftarget "aida-yago2-docs.json"
-  (wharf/transform-keys 
-   (comp wharf/dash->underscore name)
-   (aida/dataset->maps (dep "AIDA-YAGO2-dataset.tsv"))))
+  (aida/dataset->maps (dep "AIDA-YAGO2-dataset.tsv")))
 
 ;; Preprocess using Stanford NLP
 (deftarget! "aida-yago2-docs-preprocessed"
@@ -22,22 +19,18 @@
 
 ;; KB Matching
 (deftarget "aida-yago2-docs-kb-relinsts.json"
-  (wharf/transform-keys 
-   (comp wharf/dash->underscore name)
-   (multir/extract-relinsts-by-kb-matching-bulk 
-    (dep "knowledge-bases/kb-facts.tsv.gz")
-    (dep "freebase/entity-names.tsv.gz")
-    (dep "knowledge-bases/target-relations.tsv")
-    (dep "aida-yago2-docs-preprocessed"))))
+  (multir/extract-relinsts-by-kb-matching-bulk 
+   (dep "knowledge-bases/kb-facts.tsv.gz")
+   (dep "freebase/entity-names.tsv.gz")
+   (dep "knowledge-bases/target-relations.tsv")
+   (dep "aida-yago2-docs-preprocessed")))
 
 ;; MultiR extraction
 (deftarget "aida-yago2-docs-multir-relinsts.json"
-  (wharf/transform-keys 
-   (comp wharf/dash->underscore name)
-   (multir/extract-relinsts-bulk
-    (dep "multir-extractor-nel+tc+tp")
-    (dep "knowledge-bases/target-relations-types.edn")
-    (dep "aida-yago2-docs-preprocessed"))))
+  (multir/extract-relinsts-bulk
+   (dep "multir-extractor-nel+tc+tp")
+   (dep "knowledge-bases/target-relations-types.edn")
+   (dep "aida-yago2-docs-preprocessed")))
 
 (def sent-inst-key (juxt #(->> % :doc-name multir/doc-name->number) 
                          #(->> % :args (mapv (juxt :sent-idx :sent-tok-span)))))
@@ -46,9 +39,7 @@
   (->> [(dep "aida-yago2-docs-kb-relinsts.json")
         (dep "aida-yago2-docs-multir-relinsts.json")]
        (map read-from-file) (map first) aconcat
-       (wharf/transform-keys (comp keyword wharf/underscore->dash))
-       (sort-by sent-inst-key)
-       (wharf/transform-keys (comp wharf/dash->underscore name))))
+       (sort-by sent-inst-key)))
 
 (defn generate-filler-answers [type-sig->rels target-relation->display-name args answers]
   (let [filler-count (max (- 4 (count answers)) 2)
@@ -81,7 +72,7 @@
                             (mapv (partial split-at 2)) (mapv #(mapv vec %)) (into {}))
         relinsts-by-sent-inst 
         (->> relinsts-file
-             read-from-file first (wharf/transform-keys (comp keyword wharf/underscore->dash))
+             read-from-file first
              (group-by sent-inst-key) (map second)
              (sort-by (comp sent-inst-key first)))]
     (for [relinsts relinsts-by-sent-inst
@@ -96,9 +87,7 @@
 
 ;; Make questions
 (deftarget "aida-yago2-docs-questions.json"
-  (wharf/transform-keys 
-   (comp wharf/dash->underscore name)
-   (make-questions
-    (dep "knowledge-bases/target-relations-display-names.tsv")
-    (dep "knowledge-bases/coarse-type-rel-map.tsv")
-    (dep "aida-yago2-docs-relinsts-combined.json"))))
+  (make-questions
+   (dep "knowledge-bases/target-relations-display-names.tsv")
+   (dep "knowledge-bases/coarse-type-rel-map.tsv")
+   (dep "aida-yago2-docs-relinsts-combined.json")))

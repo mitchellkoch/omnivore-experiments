@@ -3,7 +3,7 @@
   :url "http://example.com/FIXME"
   :repositories [["sonatype-snapshots" {:url "http://oss.sonatype.org/content/repositories/snapshots"}]]
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [mitchellkoch/fipe "0.1.0-SNAPSHOT"]
+                 [mitchellkoch/fipe "0.1.0"]
                  [prismatic/plumbing "0.3.2"]
                  [wharf "0.1.0-SNAPSHOT"]
                  [cheshire "5.3.1"]
@@ -13,6 +13,7 @@
                  [alandipert/enduro "1.1.5"]
                  [slingshot "0.10.3"]
                  [org.flatland/ordered "1.5.2"]
+                 [org.clojure/tools.logging "0.3.0"]
 
                  ;; For MultirExperiments:
                  [org.apache.commons/commons-io "1.3.2"]
@@ -34,10 +35,11 @@
                  [postgresql/postgresql "9.0-801.jdbc4"]
                  [com.cedarsoftware/json-io "2.6.0"]
                  [com.google.code.externalsortinginjava/externalsortinginjava "0.1.9"]
-                 [log4j "1.2.15" :exclusions [javax.mail/mail
+                 [log4j/log4j "1.2.17" :exclusions [javax.mail/mail
                                               javax.jms/jms
                                               com.sun.jdmk/jmxtools
-                                              com.sun.jmx/jmxri]]]
+                                              com.sun.jmx/jmxri]]
+                 [org.slf4j/slf4j-log4j12 "1.7.7"]]
   :aliases {"compile-all" ^{:doc "Run javac appropriately and compile."}
             ["do" ["with-profile" "empty" "javac"] "compile"]}
   :java-source-paths ["../MultirExperiments/src"]

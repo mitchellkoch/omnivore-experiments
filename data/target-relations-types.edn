@@ -1,0 +1,328 @@
+["/people/person/gender"
+ [{:in-type "/people/person", :out-type "/people/gender"}]]
+["/people/person/place_of_birth"
+ [{:in-type "/people/person", :out-type "/location/location"}]]
+["/people/person/profession"
+ [{:in-type "/people/person", :out-type "/people/profession"}]]
+["/people/person/nationality"
+ [{:in-type "/people/person", :out-type "/location/country"}]]
+["/people/person/education|/education/education/institution"
+ [{:in-type "/people/person",
+   :out-type "/education/educational_institution"}]]
+["/people/person/places_lived|/people/place_lived/location"
+ [{:in-type "/people/person", :out-type "/location/location"}]]
+["/people/deceased_person/place_of_death"
+ [{:in-type "/people/deceased_person", :out-type "/location/location"}]]
+["/people/person/religion"
+ [{:in-type "/people/person", :out-type "/religion/religion"}]]
+["/organization/organization/headquarters|/location/mailing_address/citytown"
+ [{:in-type "/organization/organization",
+   :out-type "/location/location"}]]
+["/people/family_member/family|/people/family/members"
+ [{:in-type "/people/family_member",
+   :out-type "/people/family_member"}]]
+["/people/person/parents"
+ [{:in-type "/people/person", :out-type "/people/person"}]]
+["/people/deceased_person/cause_of_death"
+ [{:in-type "/people/deceased_person",
+   :out-type "/people/cause_of_death"}]]
+["/people/person/ethnicity"
+ [{:in-type "/people/person", :out-type "/people/ethnicity"}]]
+["/organization/organization/headquarters/location/mailing_address/postal_code|/location/postal_code/country"
+ [{:in-type "/organization/organization",
+   :out-type "/location/country"}]]
+["/organization/organization/headquarters|/location/mailing_address/state_province_region"
+ [{:in-type "/organization/organization",
+   :out-type "/location/administrative_division"}]]
+["/people/person/employment_history|/business/employment_tenure/company"
+ [{:in-type "/people/person", :out-type "/business/employer"}]]
+["/people/person/spouse_s|/people/marriage/spouse"
+ [{:in-type "/people/person", :out-type "/people/person"}]]
+["/people/person/sibling_s|/people/sibling_relationship/sibling"
+ [{:in-type "/people/person", :out-type "/people/person"}]]
+["/business/business_operation/industry"
+ [{:in-type "/business/business_operation",
+   :out-type "/business/industry"}]]
+["/organization/organization/board_members|/organization/organization_board_membership/member"
+ [{:in-type "/organization/organization",
+   :out-type "/business/board_member"}]]
+["/organization/organization/parent|/organization/organization_relationship/parent"
+ [{:in-type "/organization/organization",
+   :out-type "/organization/organization"}]]
+["/people/person/employment_history|/business/employment_tenure/title"
+ [{:in-type "/people/person", :out-type "/business/job_title"}]]
+["/organization/organization_founder/organizations_founded"
+ [{:in-type "/organization/organization_founder",
+   :out-type "/organization/organization"}]]
+["/organization/organization/sectors"
+ [{:in-type "/organization/organization",
+   :out-type "/organization/organization_sector"}]]
+["/organization/organization/geographic_scope"
+ [{:in-type "/organization/organization",
+   :out-type "/organization/organization_scope"}]]
+["/organization/membership_organization/members|/organization/organization_membership/member"
+ [{:in-type "/organization/membership_organization",
+   :out-type "/organization/organization_member"}]]
+["/organization/organization/leadership|/organization/leadership/person"
+ [{:in-type "/organization/organization",
+   :out-type "/business/board_member"}]]
+["/people/person/languages"
+ [{:in-type "/people/person", :out-type "/language/human_language"}]]
+["/organization/organization/place_founded"
+ [{:in-type "/organization/organization",
+   :out-type "/location/location"}]]
+["/people/deceased_person/place_of_burial"
+ [{:in-type "/people/deceased_person",
+   :out-type "/people/place_of_interment"}]]
+["/organization/organization/legal_structure"
+ [{:in-type "/organization/organization",
+   :out-type "/business/company_type"}]]
+["/people/family_member/family"
+ [{:in-type "/people/family_member", :out-type "/people/family"}]]
+["/organization/organization/organization_type"
+ [{:in-type "/organization/organization",
+   :out-type "/organization/organization_type"}]]
+["/people/ethnicity/geographic_distribution"
+ [{:in-type "/people/ethnicity", :out-type "/location/location"}]]
+["/people/ethnicity/included_in_group"
+ [{:in-type "/people/ethnicity", :out-type "/people/ethnicity"}]]
+["/organization/organization/advisors"
+ [{:in-type "/organization/organization",
+   :out-type "/business/company_advisor"}]]
+["/people/cause_of_death/parent_cause_of_death"
+ [{:in-type "/people/cause_of_death",
+   :out-type "/people/cause_of_death"}]]
+["/people/profession/specialization_of"
+ [{:in-type "/people/profession", :out-type "/people/profession"}]]
+["/people/profession/specializations"
+ [{:in-type "/people/profession", :out-type "/people/profession"}]]
+["/business/industry/parent_industry"
+ [{:in-type "/business/industry", :out-type "/business/industry"}]]
+["/organization/organization/partnerships"
+ [{:in-type "/organization/organization",
+   :out-type "/organization/organization_partnership"}]]
+["/people/family_name/people_with_this_family_name"
+ [{:in-type "/people/family_name", :out-type "/people/person"}]]
+["/people/deceased_person/place_of_cremation"
+ [{:in-type "/people/deceased_person", :out-type "/location/location"}]]
+["/business/consumer_product/brand"
+ [{:in-type "/business/consumer_product", :out-type "/business/brand"}]]
+["/people/profession/part_of_professional_field"
+ [{:in-type "/people/profession",
+   :out-type "/people/professional_field"}]]
+["/business/brand/parent_brand"
+ [{:in-type "/business/brand", :out-type "/business/brand"}]]
+["/people/chinese_ethnic_group/autonomous_prefectures"
+ [{:in-type "/people/chinese_ethnic_group",
+   :out-type "/location/cn_autonomous_prefecture"}]]
+["/business/defunct_company/reason_for_ceasing_operations"
+ [{:in-type "/business/defunct_company",
+   :out-type "/business/company_termination_type"}]]
+["/people/family/founder"
+ [{:in-type "/people/family", :out-type "/people/family_member"}]]
+["/people/chinese_ethnic_group/autonomous_counties"
+ [{:in-type "/people/chinese_ethnic_group",
+   :out-type "/location/cn_autonomous_county"}]]
+["/business/business_location/parent_company"
+ [{:in-type "/business/business_location",
+   :out-type "/organization/organization"}]]
+["/organization/organization/locations"
+ [{:in-type "/organization/organization",
+   :out-type "/business/business_location"}]]
+["/business/consumer_product/product_line"
+ [{:in-type "/business/consumer_product",
+   :out-type "/business/product_line"}]]
+["/business/business_location/in_shopping_center"
+ [{:in-type "/business/business_location",
+   :out-type "/business/shopping_center"}]]
+["/business/product_line/brand"
+ [{:in-type "/business/product_line", :out-type "/business/brand"}]]
+["/business/product_line/parent_product_line"
+ [{:in-type "/business/product_line",
+   :out-type "/business/product_line"}]]
+["/people/profession/corresponding_type"
+ [{:in-type "/people/profession", :out-type "/type/type"}]]
+["/organization/organization/committees"
+ [{:in-type "/organization/organization",
+   :out-type "/organization/organization_committee"}]]
+["/business/product_with_ingredients/ingredients"
+ [{:in-type "/business/product_with_ingredients",
+   :out-type "/business/product_ingredient"}]]
+["/people/profession/represented_by_trade_unions"
+ [{:in-type "/people/profession", :out-type "/business/trade_union"}]]
+["/business/consumer_product/category"
+ [{:in-type "/business/consumer_product",
+   :out-type "/business/product_category"}]]
+["/business/product_line/category"
+ [{:in-type "/business/product_line",
+   :out-type "/business/product_category"}]]
+["/business/product_ingredient/derived_from"
+ [{:in-type "/business/product_ingredient",
+   :out-type "/business/product_ingredient"}]]
+["/people/american_indian_group/us_indian_reservations"
+ [{:in-type "/people/american_indian_group",
+   :out-type "/location/us_indian_reservation"}]]
+["/people/chinese_ethnic_group/autonomous_regions"
+ [{:in-type "/people/chinese_ethnic_group",
+   :out-type "/location/cn_autonomous_region"}]]
+["/people/family/rise_to_prominence"
+ [{:in-type "/people/family", :out-type "/time/event"}]]
+["/organization/club_interest/clubs"
+ [{:in-type "/organization/club_interest",
+   :out-type "/organization/club"}]]
+["/business/product_line/themes"
+ [{:in-type "/business/product_line",
+   :out-type "/business/product_theme"}]]
+["/business/competitive_space/related_industries"
+ [{:in-type "/business/competitive_space",
+   :out-type "/business/industry"}]]
+["/business/consumer_product/themes"
+ [{:in-type "/business/consumer_product",
+   :out-type "/business/product_theme"}]]
+["/business/business_operation/major_customer"
+ [{:in-type "/business/business_operation",
+   :out-type "/business/customer"}]]
+["/business/customer/supplier"
+ [{:in-type "/business/customer",
+   :out-type "/business/business_operation"}]]
+["/business/product_line/category"
+ [{:in-type "/business/product_line",
+   :out-type "/business/product_category"}]]
+["/business/industry/trade_unions"
+ [{:in-type "/business/industry", :out-type "/business/trade_union"}]]
+["/organization/organization/companies_acquired|/business/acquisition/company_acquired"
+ [{:in-type "/organization/organization",
+   :out-type "/organization/organization"}]]
+["actorStarredInMovie"
+ [{:in-type "/film/actor", :out-type "/film/film"}]]
+["athleteCoach"
+ [{:in-type "/sports/drafted_athlete",
+   :out-type "/sports/professional_sports_team"}
+  {:in-type "/basketball/basketball_team",
+   :out-type "/basketball/basketball_coach"}
+  {:in-type "/american_football/football_player",
+   :out-type "/american_football/football_team"}
+  {:in-type "/american_football/football_team",
+   :out-type "/american_football/football_coach"}
+  {:in-type "/american_football/football_player",
+   :out-type "/american_football/football_team"}
+  {:in-type "/american_football/football_team",
+   :out-type "/american_football/football_coach"}
+  {:in-type "/basketball/basketball_player",
+   :out-type "/sports/sports_team"}
+  {:in-type "/basketball/basketball_team",
+   :out-type "/basketball/basketball_coach"}
+  {:in-type "/sports/drafted_athlete",
+   :out-type "/sports/professional_sports_team"}
+  {:in-type "/american_football/football_team",
+   :out-type "/american_football/football_coach"}]]
+["athleteHomeStadium"
+ [{:in-type "/sports/drafted_athlete",
+   :out-type "/sports/professional_sports_team"}
+  {:in-type "/sports/sports_team",
+   :out-type "/sports/sports_facility"}]]
+["athletePlaysForTeam"
+ [{:in-type "/sports/drafted_athlete",
+   :out-type "/sports/professional_sports_team"}
+  {:in-type "/basketball/basketball_player",
+   :out-type "/sports/sports_team"}
+  {:in-type "/ice_hockey/hockey_player",
+   :out-type "/sports/sports_team"}
+  {:in-type "/american_football/football_player",
+   :out-type "/sports/sports_team"}
+  {:in-type "/baseball/baseball_player",
+   :out-type "/sports/sports_team"}]]
+["athletePlaysInLeague"
+ [{:in-type "/sports/drafted_athlete",
+   :out-type "/sports/professional_sports_team"}
+  {:in-type "/sports/sports_team", :out-type "/sports/sports_league"}]]
+["athletePlaysSport"
+ [{:in-type "/sports/pro_athlete", :out-type "/sports/sport"}]]
+["bookWriter"
+ [{:in-type "/book/book_edition", :out-type "/book/author"}
+  {:in-type "/book/written_work", :out-type "/book/author"}
+  {:in-type "/film/film", :out-type "/film/film_story_contributor"}]]
+["ceoOf" [{:in-type "/people/person", :out-type "/business/employer"}]]
+["coachesInLeague"
+ [{:in-type "/american_football/football_coach",
+   :out-type "/american_football/football_team"}
+  {:in-type "/sports/sports_team", :out-type "/sports/sports_league"}
+  {:in-type "/basketball/basketball_coach",
+   :out-type "/basketball/basketball_team"}
+  {:in-type "/sports/sports_team", :out-type "/sports/sports_league"}
+  {:in-type "/baseball/baseball_manager",
+   :out-type "/baseball/baseball_team"}
+  {:in-type "/sports/sports_team", :out-type "/sports/sports_league"}
+  {:in-type "/ice_hockey/hockey_coach",
+   :out-type "/ice_hockey/hockey_team"}
+  {:in-type "/sports/sports_team", :out-type "/sports/sports_league"}]]
+["coachesTeam"
+ [{:in-type "/basketball/basketball_coach",
+   :out-type "/basketball/basketball_team"}
+  {:in-type "/american_football/football_coach",
+   :out-type "/american_football/football_team"}]]
+["competesWith"
+ [{:in-type "/business/business_operation",
+   :out-type "/business/industry"}
+  {:in-type "/business/industry",
+   :out-type "/business/business_operation"}]]
+["hasOfficeInCountry"
+ [{:in-type "/business/employer", :out-type "/people/person"}
+  {:in-type "/people/person", :out-type "/location/country"}
+  {:in-type "/organization/organization",
+   :out-type "/location/location"}
+  {:in-type "/location/location", :out-type "/location/location"}]]
+["leagueStadiums"
+ [{:in-type "/sports/sports_league", :out-type "/sports/sports_team"}
+  {:in-type "/sports/sports_team",
+   :out-type "/sports/sports_facility"}]]
+["musicArtistGenre"
+ [{:in-type "/music/artist", :out-type "/music/genre"}]]
+["musicianInMusicArtist"
+ [{:in-type "/music/group_member", :out-type "/music/musical_group"}]]
+["musicianPlaysInstrument"
+ [{:in-type "/music/group_member", :out-type "/music/instrument"}]]
+["newspaperInCity"
+ [{:in-type "/book/newspaper", :out-type "/location/location"}]]
+["radioStationInCity"
+ [{:in-type "/broadcast/broadcast", :out-type "/location/location"}]]
+["sportUsesEquipment"
+ [{:in-type "/sports/sport", :out-type "/sports/sports_equipment"}]]
+["sportUsesStadium"
+ [{:in-type "/sports/sport", :out-type "/sports/sports_team"}
+  {:in-type "/sports/sports_team",
+   :out-type "/sports/sports_facility"}]]
+["teamHomeStadium"
+ [{:in-type "/sports/sports_team",
+   :out-type "/sports/sports_facility"}]]
+["teammate"
+ [{:in-type "/sports/drafted_athlete",
+   :out-type "/sports/professional_sports_team"}
+  {:in-type "/sports/professional_sports_team",
+   :out-type "/sports/drafted_athlete"}
+  {:in-type "/basketball/basketball_player",
+   :out-type "/sports/sports_team"}
+  {:in-type "/basketball/basketball_team",
+   :out-type "/sports/pro_athlete"}]]
+["teamPlaysAgainstTeam"
+ [{:in-type "/sports/sports_team", :out-type "/sports/sports_league"}
+  {:in-type "/sports/sports_league", :out-type "/sports/sports_team"}]]
+["teamPlaysInCity"
+ [{:in-type "/sports/sports_team", :out-type "/sports/sports_facility"}
+  {:in-type "/location/location", :out-type "/location/location"}
+  {:in-type "/sports/sports_team",
+   :out-type "/sports/sports_team_location"}]]
+["teamPlaysInLeague"
+ [{:in-type "/sports/sports_team", :out-type "/sports/sports_league"}]]
+["teamPlaysSport"
+ [{:in-type "/sports/sports_team", :out-type "/sports/sport"}]]
+["televisionStationAffiliatedWith"
+ [{:in-type "/broadcast/tv_station", :out-type "/tv/tv_network"}]]
+["televisionStationInCity"
+ [{:in-type "/broadcast/broadcast", :out-type "/location/location"}]]
+["visualArtistArtForm"
+ [{:in-type "/visual_art/visual_artist",
+   :out-type "/visual_art/visual_art_form"}]]
+["visualArtistArtMovement"
+ [{:in-type "/visual_art/visual_artist",
+   :out-type "/visual_art/art_period_movement"}]]

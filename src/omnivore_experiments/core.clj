@@ -4,7 +4,10 @@
         fipe.util
         omnivore-experiments.util)
   (:require [clojure.string :as str]
+            [clojure.tools.logging :as log]
             [omnivore-experiments.aida :as aida]
+            [omnivore-experiments.figer :as figer]
+            [omnivore-experiments.freebase :as fb]
             [omnivore-experiments.multir :as multir]))
 
 (set-fipe-dir! "data")
@@ -41,7 +44,20 @@
        (map read-from-file) (map first) aconcat
        (sort-by sent-inst-key)))
 
-(defn generate-filler-answers [type-sig->rels target-relation->display-name args answers]
+(defn gen-figer-type-rel-map [target-relations-types-file]
+  (let [target-relations-types (into [] (read-from-file target-relations-types-file))]
+    (let [entries (for [[rel allowed-types] target-relations-types
+                        :let [{:keys [in-type out-type]} (first allowed-types)]]
+                    {:rel rel
+                     :figer-typesig (mapv figer/freebase-type->figer-type [in-type out-type])})]
+      (for [[figer-typesig entries] (sort-by first (group-by :figer-typesig entries))]
+        (concat figer-typesig (map :rel entries))))))
+
+(deftarget "knowledge-bases/figer-type-rel-map.tsv"
+  (gen-figer-type-rel-map
+   (dep "knowledge-bases/target-relations-types.edn")))
+
+(defn generate-filler-answers-by-ner [type-sig->rels target-relation->display-name args answers]
   (let [filler-count (max (- 4 (count answers)) 2)
         arg-types (vec (for [arg args
                              :let [t (:ner-type arg)]]
@@ -66,22 +82,48 @@
        :relation-display-name (target-relation->display-name r)
        :source ["Filler"]})))
 
-(defn make-questions [target-relations-display-names-file coarse-type-rel-map-file relinsts-file]
+(defn generate-filler-answers-by-freebase-types [target-relations-types target-relation->display-name args answers]
+  (let [filler-count (max (- 4 (count answers)) 2)
+        [arg1-types arg2-types] (for [{:keys [mid ner-type] :as arg} args]
+                                  (if mid
+                                    (fb/entity-mid->type-set (:mid arg))
+                                    (if-let [t (multir/ner-type->fb-type ner-type)]
+                                      t
+                                      (constantly true))))
+        possible-relations (for [[relation allowed-types] target-relations-types
+                                 :when (some (fn [{:keys [in-type out-type]}]
+                                               (and (arg1-types in-type)
+                                                    (arg2-types out-type)))
+                                             allowed-types)] 
+                             relation)
+        ;; Remove already used relations:
+        possible-relations (filter (complement (set (map :relation answers))) possible-relations)
+        filler-relations (take filler-count (shuffle possible-relations))]
+    (for [r filler-relations]
+      {:relation r
+       :relation-display-name (target-relation->display-name r)
+       :source ["Filler"]})))
+
+(defn make-questions [target-relations-display-names-file coarse-type-rel-map-file target-relations-types-file relinsts-file]
   (let [target-relation->display-name (into {} (map vec (read-from-file target-relations-display-names-file)))
         type-sig->rels (->> coarse-type-rel-map-file read-from-file
                             (mapv (partial split-at 2)) (mapv #(mapv vec %)) (into {}))
+        target-relations-types (into [] (read-from-file target-relations-types-file))
         relinsts-by-sent-inst 
         (->> relinsts-file
              read-from-file first
              (group-by sent-inst-key) (map second)
              (sort-by (comp sent-inst-key first)))]
     (for [relinsts relinsts-by-sent-inst
-          :let [answers (vec (for [[rel relinsts-by-rel] (group-by :relation relinsts)]
-                               {:relation rel
+          :let [answers (vec (for [[rel
+                                    relinsts-by-rel] (group-by :relation relinsts)]
+                               {:type "Question"
+                                :relation rel
                                 :relation-display-name (target-relation->display-name rel)
                                 :source (mapv :source relinsts-by-rel)
                                 :score (mapv :score relinsts-by-rel)}))
-                filler-answers (generate-filler-answers type-sig->rels target-relation->display-name (:args (first relinsts)) answers)]]
+                filler-answers (generate-filler-answers-by-freebase-types target-relations-types target-relation->display-name (:args (first relinsts)) answers)
+                #_(generate-filler-answers-by-ner type-sig->rels target-relation->display-name (:args (first relinsts)) answers)]]
       (assoc (select-keys (first relinsts) [:doc-name :args])
         :answers (shuffle (concat answers filler-answers))))))
 
@@ -90,4 +132,5 @@
   (make-questions
    (dep "knowledge-bases/target-relations-display-names.tsv")
    (dep "knowledge-bases/coarse-type-rel-map.tsv")
+   (dep "knowledge-bases/target-relations-types.edn")
    (dep "aida-yago2-docs-relinsts-combined.json")))

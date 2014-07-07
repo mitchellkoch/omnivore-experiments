@@ -1,0 +1,43 @@
+		/people/family_member/family|/people/family/members	/people/deceased_person/cause_of_death	/organization/membership_organization/members|/organization/organization_membership/member	/people/family_member/family	/people/cause_of_death/parent_cause_of_death	/business/industry/parent_industry	/business/brand/parent_brand	/business/defunct_company/reason_for_ceasing_operations	/people/family/founder	/business/product_line/brand	/business/product_line/parent_product_line	/business/product_with_ingredients/ingredients	/business/product_line/category	/business/product_ingredient/derived_from	/people/chinese_ethnic_group/autonomous_regions	/organization/club_interest/clubs	/business/product_line/themes	/business/competitive_space/related_industries	/business/product_line/category	sportUsesEquipment
+	/broadcast_network	televisionStationAffiliatedWith
+	/event	/people/family/rise_to_prominence
+	/location	/people/deceased_person/place_of_death	/people/deceased_person/place_of_cremation	/business/business_location/in_shopping_center	/people/american_indian_group/us_indian_reservations	radioStationInCity	televisionStationInCity
+	/location/cemetery	/people/deceased_person/place_of_burial
+	/location/county	/people/chinese_ethnic_group/autonomous_prefectures	/people/chinese_ethnic_group/autonomous_counties
+	/organization	/organization/organization_founder/organizations_founded	/business/business_location/parent_company	/business/industry/trade_unions
+	/organization/company	/business/customer/supplier
+	/organization/sports_team	athleteCoach	athleteHomeStadium	athletePlaysForTeam	athletePlaysInLeague	sportUsesStadium	teammate
+	/person/author	bookWriter
+	/person/musician	musicianInMusicArtist
+	/product/instrument	musicianPlaysInstrument
+/organization		/organization/organization/sectors	/organization/organization/geographic_scope	/organization/organization/legal_structure	/organization/organization/organization_type	/organization/organization/advisors	/organization/organization/partnerships	/organization/organization/locations	/organization/organization/committees
+/organization	/location	/organization/organization/headquarters|/location/mailing_address/citytown	/organization/organization/headquarters|/location/mailing_address/state_province_region	/organization/organization/place_founded
+/organization	/location/country	/organization/organization/headquarters/location/mailing_address/postal_code|/location/postal_code/country
+/organization	/organization	/organization/organization/parent|/organization/organization_relationship/parent	/organization/organization/companies_acquired|/business/acquisition/company_acquired
+/organization	/person	/organization/organization/board_members|/organization/organization_board_membership/member	/organization/organization/leadership|/organization/leadership/person	hasOfficeInCountry
+/organization/company		/business/business_operation/industry	/business/business_operation/major_customer	competesWith
+/organization/sports_league	/organization/sports_team	leagueStadiums
+/organization/sports_team		teamPlaysSport
+/organization/sports_team	/building/sports_facility	teamHomeStadium	teamPlaysInCity
+/organization/sports_team	/organization/sports_league	teamPlaysAgainstTeam	teamPlaysInLeague
+/people/ethnicity	/location	/people/ethnicity/geographic_distribution
+/people/ethnicity	/people/ethnicity	/people/ethnicity/included_in_group
+/person		/people/person/gender
+/person	/language	/people/person/languages
+/person	/location	/people/person/place_of_birth	/people/person/places_lived|/people/place_lived/location
+/person	/location/country	/people/person/nationality
+/person	/organization	/people/person/employment_history|/business/employment_tenure/company	ceoOf
+/person	/organization/educational_institution	/people/person/education|/education/education/institution
+/person	/people/ethnicity	/people/person/ethnicity
+/person	/person	/people/person/parents	/people/person/spouse_s|/people/marriage/spouse	/people/person/sibling_s|/people/sibling_relationship/sibling	/people/family_name/people_with_this_family_name
+/person	/religion/religion	/people/person/religion
+/person	/title	/people/person/profession	/people/person/employment_history|/business/employment_tenure/title
+/person/actor	/art/film	actorStarredInMovie
+/person/artist		musicArtistGenre	visualArtistArtForm	visualArtistArtMovement
+/person/athlete		athletePlaysSport
+/person/coach	/organization/sports_team	coachesInLeague	coachesTeam
+/product		/business/consumer_product/brand	/business/consumer_product/product_line	/business/consumer_product/category	/business/consumer_product/themes
+/title		/people/profession/part_of_professional_field	/people/profession/corresponding_type
+/title	/organization	/people/profession/represented_by_trade_unions
+/title	/title	/people/profession/specialization_of	/people/profession/specializations
+/written_work	/location	newspaperInCity

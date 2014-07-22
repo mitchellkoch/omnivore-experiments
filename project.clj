@@ -3,7 +3,7 @@
   :url "http://example.com/FIXME"
   :repositories [["sonatype-snapshots" {:url "http://oss.sonatype.org/content/repositories/snapshots"}]]
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [mitchellkoch/fipe "0.1.0"]
+                 [mitchellkoch/fipe "0.1.1-SNAPSHOT"]
                  [prismatic/plumbing "0.3.2"]
                  [wharf "0.1.0-SNAPSHOT"]
                  [cheshire "5.3.1"]
@@ -14,7 +14,8 @@
                  [slingshot "0.10.3"]
                  [org.flatland/ordered "1.5.2"]
                  [org.clojure/tools.logging "0.3.0"]
-
+                 [com.ashafa/clutch "0.4.0-RC1"]
+                 
                  ;; For MultirExperiments:
                  [org.apache.commons/commons-io "1.3.2"]
                  [org.apache.commons/commons-lang3 "3.1"]

@@ -117,15 +117,15 @@
     (for [relinsts relinsts-by-sent-inst
           :let [answers (vec (for [[rel
                                     relinsts-by-rel] (group-by :relation relinsts)]
-                               {:type "Question"
-                                :relation rel
+                               {:relation rel
                                 :relation-display-name (target-relation->display-name rel)
                                 :source (mapv :source relinsts-by-rel)
                                 :score (mapv :score relinsts-by-rel)}))
                 filler-answers (generate-filler-answers-by-freebase-types target-relations-types target-relation->display-name (:args (first relinsts)) answers)
                 #_(generate-filler-answers-by-ner type-sig->rels target-relation->display-name (:args (first relinsts)) answers)]]
       (assoc (select-keys (first relinsts) [:doc-name :args])
-        :answers (shuffle (concat answers filler-answers))))))
+        :answers (shuffle (concat answers filler-answers))
+        :type "Question"))))
 
 ;; Make questions
 (deftarget "aida-yago2-docs-questions.json"
@@ -134,3 +134,4 @@
    (dep "knowledge-bases/coarse-type-rel-map.tsv")
    (dep "knowledge-bases/target-relations-types.edn")
    (dep "aida-yago2-docs-relinsts-combined.json")))
+

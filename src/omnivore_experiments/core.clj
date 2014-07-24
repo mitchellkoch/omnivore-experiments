@@ -4,17 +4,39 @@
         fipe.util
         omnivore-experiments.util)
   (:require [clojure.string :as str]
+            [me.raynes.fs :as fs]
+            [clojure.java.io :as io]
+            [clj-progress.core :as progress]
             [clojure.tools.logging :as log]
             [omnivore-experiments.aida :as aida]
             [omnivore-experiments.figer :as figer]
             [omnivore-experiments.freebase :as fb]
-            [omnivore-experiments.multir :as multir]))
+            [omnivore-experiments.multir :as multir]
+            [omnivore-experiments.uclassify :as uclassify]))
 
 (set-fipe-dir! "data")
 
-;; Ready to import into CouchDB
+;; Convert AIDA YAGO2 docs to JSON
 (deftarget "aida-yago2-docs.json"
   (aida/dataset->maps (dep "AIDA-YAGO2-dataset.tsv")))
+
+;; Topic-classify documents from Congle Zhang's parallel news corpus
+(deftarget! "parallelnews/extract1-originals"
+  (fs/copy 
+   (io/file "/projects/pardosa/s2/clzhang/parallelnews/exp15/broil/20140722/1406061317158") 
+   (io/file *target* "20140722-1406061317158.json")))
+
+(progress/set-progress-bar! ":header [:bar] :percent :done/:total :etas")
+
+(deftarget "parallelnews/extract1-withtopics/*.json"
+  {:from "parallelnews/extract1-originals/*.json"
+   :with-progress ["Running uClassify on articles" #(count (read-from-file *source*))]}
+  (for [article (read-from-file *source*)]
+    (assoc article 
+      :topic (->> article :text
+                  uclassify/topic-classify
+                  progress/tick
+                  uclassify/get-predicted-topic))))
 
 ;; Preprocess using Stanford NLP
 (deftarget! "aida-yago2-docs-preprocessed"

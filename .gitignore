@@ -16,10 +16,12 @@ pom.xml.asc
 
 /freebase-api-key.txt
 /freebase-caches
+/uclassify-api-key.txt
 
 
 /data/AIDA-YAGO2-dataset.tsv
 /data/aida-yago2-docs.json
 /data/aida-yago2-docs-preprocessed
 /data/multir-extractor*
+/data/parallelnews
 *.gz

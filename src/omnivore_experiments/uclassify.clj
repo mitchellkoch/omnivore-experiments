@@ -11,19 +11,18 @@
 
 (def ^:dynamic *uclassify-api-wait-ms* 200)
 
-(defn topic-classify [text]
+(defn topic-classify [article]
   (Thread/sleep *uclassify-api-wait-ms*)
-  (let [response (http/get "http://uclassify.com/browse/uClassify/Topics/ClassifyText"
-                           {:query-params {:readKey uclassify-api-key
-                                           :text (.substring text 0 (min (.length text) 1900))
-                                           :output "json"
-                                           :version "1.01"}})]
-    (try+
-     (json/parse-string (:body @response) true)
-     (catch Object _ (throw+ @response)))))
+  (try+
+   (let [response (http/get "http://uclassify.com/browse/uClassify/Topics/ClassifyText"
+                            {:query-params {:readKey uclassify-api-key
+                                            :text (.substring (:text article) 0 (min (.length (:text article)) 1900))
+                                            :output "json"
+                                            :version "1.01"}})
+         parsed-response (json/parse-string (:body @response) true)]
+     parsed-response)
+   (catch Object _ (throw+))))
 
 (defn get-predicted-topic [topic-classifier-res]
-  (->> topic-classifier-res
-       :cls1
-       (apply max-key second)
-       first))
+  (when-let [classes (:cls1 topic-classifier-res)]
+    (first (apply max-key second classes))))

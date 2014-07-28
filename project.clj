@@ -16,6 +16,7 @@
                  [org.clojure/tools.logging "0.3.0"]
                  [com.ashafa/clutch "0.4.0-RC1"]
                  [intervox/clj-progress "0.1.1"]
+                 [bigml/sampling "2.1.1"]
                  
                  ;; For MultirExperiments:
                  [org.apache.commons/commons-io "1.3.2"]

@@ -12,31 +12,27 @@
             [omnivore-experiments.figer :as figer]
             [omnivore-experiments.freebase :as fb]
             [omnivore-experiments.multir :as multir]
-            [omnivore-experiments.uclassify :as uclassify]))
+            [omnivore-experiments.uclassify :as uclassify]
+            [bigml.sampling [reservoir :as reservoir]]))
 
 (set-fipe-dir! "data")
+
+(progress/set-progress-bar! ":header [:bar] :percent :done/:total :etas")
 
 ;; Convert AIDA YAGO2 docs to JSON
 (deftarget "aida-yago2-docs.json"
   (aida/dataset->maps (dep "AIDA-YAGO2-dataset.tsv")))
 
-;; Topic-classify documents from Congle Zhang's parallel news corpus
-(deftarget! "parallelnews/extract1-originals"
-  (fs/copy 
-   (io/file "/projects/pardosa/s2/clzhang/parallelnews/exp15/broil/20140722/1406061317158") 
-   (io/file *target* "20140722-1406061317158.json")))
-
-(progress/set-progress-bar! ":header [:bar] :percent :done/:total :etas")
-
-(deftarget "parallelnews/extract1-withtopics/*.json"
-  {:from "parallelnews/extract1-originals/*.json"
-   :with-progress ["Running uClassify on articles" #(count (read-from-file *source*))]}
-  (for [article (read-from-file *source*)]
-    (assoc article 
-      :topic (->> article :text
-                  uclassify/topic-classify
-                  progress/tick
-                  uclassify/get-predicted-topic))))
+;; Sample recent news articles
+(def pnews-files   
+  (->> (fs/glob "/projects/pardosa/s2/clzhang/parallelnews/exp15/broil/201407*")
+       (sort-by str) (map #(.listFiles %)) aconcat))
+(deftarget "parallelnews/2014-07-sample1.json"
+  {:with-progress ["Files processed" #(count pnews-files)]}
+  (->> pnews-files
+       (map #(progress/tick (read-from-file % :as "json"))) aconcat ; => articles
+       (filter #(< 20 (count (:text %)))) ; filter out short or empty articles
+       (#(reservoir/sample % 3000))))
 
 ;; Preprocess using Stanford NLP
 (deftarget! "aida-yago2-docs-preprocessed"

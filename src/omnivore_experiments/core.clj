@@ -153,3 +153,58 @@
    (dep "knowledge-bases/target-relations-types.edn")
    (dep "aida-yago2-docs-relinsts-combined.json")))
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Use data from Ce Zhang, et al. - ACL 2012
+
+(defn get-relinsts-from-batch [files-glob]
+  (let [data-files (fs/glob files-glob)
+        all-rows (for [dfile data-files
+                       :let [header (vec (first (read-from-file dfile)))]
+                       row (rest (read-from-file dfile))]
+                   (zipmap header row))]
+    (for [row all-rows
+          num (range 1 6)
+          :let [relinst (zipmap [:fact-display :sentence :relation :answer :worker-id] 
+                                (conj 
+                                 (vec (for [basename ["Input.Relation" "Input.Sentence" "Input.rel" "Answer.Category"]] 
+                                        (get row (str basename num))))
+                                 (get row "WorkerId")))]
+          :when (and (every? identity (vals relinst)) (not= "" (:answer relinst)))]
+      relinst)))
+
+(deftarget "ce-zhang-acl-12/relinsts.edn.gz"
+  (get-relinsts-from-batch (dep "ce-zhang-acl-12/Batch*")))
+
+(deftarget "ce-zhang-acl-12/num-answers-hist.tsv"
+  (->> (for [[relinst anns] (group-by (juxt :fact-display :sentence :relation)
+                                      (read-from-file (dep "ce-zhang-acl-12/relinsts.edn.gz")))
+             :let [anns (distinct-by :worker-id anns)]]
+         (count anns))
+       frequencies
+       (sort-by first)))
+
+(defn get-agreed-relinsts
+  "Get the relation instances that have agreement x/(x+1)?"  
+  [relinsts-file x]
+  (for [[relinst anns] (group-by (juxt :fact-display :sentence :relation)
+                                 (read-from-file relinsts-file))
+        :let [anns (distinct-by :worker-id anns)
+              by-answer (group-by :answer anns)
+              max-agreement (apply max (map (comp count second) by-answer))]
+        :when (and (>= (count anns) (inc x))
+                   (>= max-agreement x))]
+    (assoc (zipmap [:fact-display :sentence :relation] relinst) 
+      :answer (first (apply max-key (comp count second) by-answer)))))
+
+(defn num-groups-agree
+  "How many relation instances have agreement x/(x+1)?"
+  [relinsts-file x]
+  (count (get-agreed-relinsts relinsts-file x)))
+
+(deftarget "ce-zhang-acl-12/instances-vs-agreement.tsv"
+  (for [x (range 1 12)]
+    [(/ x (inc x)) (num-groups-agree (dep "ce-zhang-acl-12/relinsts.edn.gz") x)]))
+
+(deftarget "ce-zhang-acl-12/sample-10-11-agreement.csv"
+  (for [relinst (take 100 (shuffle (get-agreed-relinsts (dep "ce-zhang-acl-12/relinsts.edn.gz") 10)))]
+    ((juxt :fact-display :sentence :relation :answer) relinst)))

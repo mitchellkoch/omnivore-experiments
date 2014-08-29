@@ -1,0 +1,2964 @@
+["0374427fda8b64f189cecbd2ef007ff0"
+ [{:response [],
+   :_id "556c2ee63030c09d4697a67db8de59f9",
+   :_rev "1-bb42a327cad4c2052cadc0d196306ff7",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Israeli"],
+   :updated_at "2014-08-19T17:38:52.250Z",
+   :user_id "A1R0689JPSQ3OF",
+   :question_id "0374427fda8b64f189cecbd2ef007ff0",
+   :created_at "2014-08-19T17:38:52.250Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d9b95c",
+   :_rev "1-d99768591b0701bb782764ba5b22041e",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Israeli"],
+   :updated_at "2014-08-23T10:25:00.558Z",
+   :user_id "A1RSAU5I9NZTOP",
+   :question_id "0374427fda8b64f189cecbd2ef007ff0",
+   :created_at "2014-08-23T10:25:00.558Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8d83692",
+   :_rev "1-84713a2ae5607fb93d0c1df100a29a24",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Israeli"],
+   :updated_at "2014-08-24T12:20:18.588Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef007ff0",
+   :created_at "2014-08-24T12:20:18.588Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8d83e12",
+   :_rev "1-ac6a7a8049117a9433909352dce9f38b",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Israeli"],
+   :updated_at "2014-08-24T12:20:09.123Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef007ff0",
+   :created_at "2014-08-24T12:20:09.123Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8be844a",
+   :_rev "1-24c4691d65253a2f8cb62500d5571f40",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Israeli"],
+   :updated_at "2014-08-19T02:20:23.479Z",
+   :user_id "A2LCFORIW0NF1S",
+   :question_id "0374427fda8b64f189cecbd2ef007ff0",
+   :created_at "2014-08-19T02:20:23.479Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d9e62d",
+   :_rev "1-b937bee93fd2a212e995eb83402ca28f",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Israeli"],
+   :updated_at "2014-08-22T12:42:07.900Z",
+   :user_id "A2OAFDRBQTWR2Q",
+   :question_id "0374427fda8b64f189cecbd2ef007ff0",
+   :created_at "2014-08-22T12:42:07.900Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d92a18",
+   :_rev "1-f2139e485a38f3dbf3c62a396b36fda5",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Israeli"],
+   :updated_at "2014-08-23T18:49:31.455Z",
+   :user_id "A2QHW6YQY7VGHJ",
+   :question_id "0374427fda8b64f189cecbd2ef007ff0",
+   :created_at "2014-08-23T18:49:31.455Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dc9223",
+   :_rev "1-4662501750e0ad46bb95bb2befa448da",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Israeli"],
+   :updated_at "2014-08-19T19:25:34.500Z",
+   :user_id "A2SYRFPPV9WDEG",
+   :question_id "0374427fda8b64f189cecbd2ef007ff0",
+   :created_at "2014-08-19T19:25:34.500Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dd4ee1",
+   :_rev "1-113b6a0d578b9e89d227361ffe4d49f6",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Israeli"],
+   :updated_at "2014-08-19T18:51:31.996Z",
+   :user_id "A2WDTJBM4ES5S4",
+   :question_id "0374427fda8b64f189cecbd2ef007ff0",
+   :created_at "2014-08-19T18:51:31.996Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8ddb91d",
+   :_rev "1-f83681644a92aac1d862fafe587905f5",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Israeli"],
+   :updated_at "2014-08-19T18:02:57.049Z",
+   :user_id "A30JJ6BYT6ZAOO",
+   :question_id "0374427fda8b64f189cecbd2ef007ff0",
+   :created_at "2014-08-19T18:02:57.049Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8dbdb31",
+   :_rev "1-35f402b6ebb193a1ad93cd95d84fdcd7",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Israeli"],
+   :updated_at "2014-08-20T01:31:26.997Z",
+   :user_id "A3FW9NWR6TJ4M9",
+   :question_id "0374427fda8b64f189cecbd2ef007ff0",
+   :created_at "2014-08-20T01:31:26.997Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d7b287",
+   :_rev "1-195f84e67455c91708306c42660495dd",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Israeli"],
+   :updated_at "2014-08-24T15:57:02.970Z",
+   :user_id "A3TT428V461KZN",
+   :question_id "0374427fda8b64f189cecbd2ef007ff0",
+   :created_at "2014-08-24T15:57:02.970Z"}]]
+["0374427fda8b64f189cecbd2ef002ea9"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8beef33",
+   :_rev "1-ab3eca732020f643a33f1f49ebc22ed3",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "Taiwanese"],
+   :updated_at "2014-08-19T01:10:25.188Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef002ea9",
+   :created_at "2014-08-19T01:10:25.188Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8de3565",
+   :_rev "1-3c01988a614d54f48cd92cbbd3b46d15",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "Taiwanese"],
+   :updated_at "2014-08-19T17:41:46.910Z",
+   :user_id "A1G187YBG0DVMQ",
+   :question_id "0374427fda8b64f189cecbd2ef002ea9",
+   :created_at "2014-08-19T17:41:46.910Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d96322",
+   :_rev "1-9590ea2799477f44483d5409862df4c2",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "Taiwanese"],
+   :updated_at "2014-08-23T10:33:21.441Z",
+   :user_id "A1RSAU5I9NZTOP",
+   :question_id "0374427fda8b64f189cecbd2ef002ea9",
+   :created_at "2014-08-23T10:33:21.441Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d84527",
+   :_rev "1-8d545bd3d3f29ba6ff2e9a5264ad3748",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "Taiwanese"],
+   :updated_at "2014-08-24T12:19:59.000Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef002ea9",
+   :created_at "2014-08-24T12:19:59.000Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8be7dc3",
+   :_rev "1-ed6349992e91d454b0dd49bcb86b6434",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "Taiwanese"],
+   :updated_at "2014-08-19T02:20:42.868Z",
+   :user_id "A2LCFORIW0NF1S",
+   :question_id "0374427fda8b64f189cecbd2ef002ea9",
+   :created_at "2014-08-19T02:20:42.868Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dd3baa",
+   :_rev "1-074d81da808e2adf88fcc2e34c3c87aa",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "Taiwanese"],
+   :updated_at "2014-08-19T18:52:31.155Z",
+   :user_id "A2WDTJBM4ES5S4",
+   :question_id "0374427fda8b64f189cecbd2ef002ea9",
+   :created_at "2014-08-19T18:52:31.155Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dd0931",
+   :_rev "1-c122383cccdb8bfc59eed5b84d92c90b",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "Taiwanese"],
+   :updated_at "2014-08-19T19:11:50.400Z",
+   :user_id "A3LXS3Y6NNTGG3",
+   :question_id "0374427fda8b64f189cecbd2ef002ea9",
+   :created_at "2014-08-19T19:11:50.400Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8daeea5",
+   :_rev "1-14a8be8e851e5da4cdef941b24c81b42",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "Taiwanese"],
+   :updated_at "2014-08-20T19:17:26.738Z",
+   :user_id "A3NV8GEG3IEEWG",
+   :question_id "0374427fda8b64f189cecbd2ef002ea9",
+   :created_at "2014-08-20T19:17:26.739Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d7b590",
+   :_rev "1-4736e722151921fa8c3083514237da39",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "Taiwanese"],
+   :updated_at "2014-08-24T15:56:02.131Z",
+   :user_id "A3TT428V461KZN",
+   :question_id "0374427fda8b64f189cecbd2ef002ea9",
+   :created_at "2014-08-24T15:56:02.131Z"}]]
+["0374427fda8b64f189cecbd2ef0055ed"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8de6e44",
+   :_rev "1-751ecc5efe39266ad0c9a754a50d7c22",
+   :sentence
+   "State media quoted China 's top negotiator with Taipei , Tang Shubei , as telling a visiting group from Taiwan on Wednesday that it was time for the rivals to hold political talks .",
+   :type "Annotation",
+   :args_text ["Tang Shubei" "China"],
+   :updated_at "2014-08-19T17:38:14.743Z",
+   :user_id "A1R0689JPSQ3OF",
+   :question_id "0374427fda8b64f189cecbd2ef0055ed",
+   :created_at "2014-08-19T17:38:14.743Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d98929",
+   :_rev "1-ebd98887da98756af109b97272f73881",
+   :sentence
+   "State media quoted China 's top negotiator with Taipei , Tang Shubei , as telling a visiting group from Taiwan on Wednesday that it was time for the rivals to hold political talks .",
+   :type "Annotation",
+   :args_text ["Tang Shubei" "China"],
+   :updated_at "2014-08-23T10:31:07.413Z",
+   :user_id "A1RSAU5I9NZTOP",
+   :question_id "0374427fda8b64f189cecbd2ef0055ed",
+   :created_at "2014-08-23T10:31:07.413Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dc2681",
+   :_rev "1-a19419f6a7d7f0536b81f2a6d1f0e11b",
+   :sentence
+   "State media quoted China 's top negotiator with Taipei , Tang Shubei , as telling a visiting group from Taiwan on Wednesday that it was time for the rivals to hold political talks .",
+   :type "Annotation",
+   :args_text ["Tang Shubei" "China"],
+   :updated_at "2014-08-19T20:44:50.000Z",
+   :user_id "A2AVWXK2DZHYCM",
+   :question_id "0374427fda8b64f189cecbd2ef0055ed",
+   :created_at "2014-08-19T20:44:50.000Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8d8e8ff",
+   :_rev "1-dcae0ddd1c72297bcdc36cc5bb0b9140",
+   :sentence
+   "State media quoted China 's top negotiator with Taipei , Tang Shubei , as telling a visiting group from Taiwan on Wednesday that it was time for the rivals to hold political talks .",
+   :type "Annotation",
+   :args_text ["Tang Shubei" "China"],
+   :updated_at "2014-08-23T18:53:52.062Z",
+   :user_id "A2QHW6YQY7VGHJ",
+   :question_id "0374427fda8b64f189cecbd2ef0055ed",
+   :created_at "2014-08-23T18:53:52.062Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dca902",
+   :_rev "1-0bb5b533ca23386a8be35a9618e92bb0",
+   :sentence
+   "State media quoted China 's top negotiator with Taipei , Tang Shubei , as telling a visiting group from Taiwan on Wednesday that it was time for the rivals to hold political talks .",
+   :type "Annotation",
+   :args_text ["Tang Shubei" "China"],
+   :updated_at "2014-08-19T19:25:19.030Z",
+   :user_id "A2SYRFPPV9WDEG",
+   :question_id "0374427fda8b64f189cecbd2ef0055ed",
+   :created_at "2014-08-19T19:25:19.030Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dd2a0c",
+   :_rev "1-670e1d412a35b8fd882beaa22a364ec6",
+   :sentence
+   "State media quoted China 's top negotiator with Taipei , Tang Shubei , as telling a visiting group from Taiwan on Wednesday that it was time for the rivals to hold political talks .",
+   :type "Annotation",
+   :args_text ["Tang Shubei" "China"],
+   :updated_at "2014-08-19T18:54:51.275Z",
+   :user_id "A2WDTJBM4ES5S4",
+   :question_id "0374427fda8b64f189cecbd2ef0055ed",
+   :created_at "2014-08-19T18:54:51.275Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d99427",
+   :_rev "1-0c21d0ea5796ad7962010a544719f26f",
+   :sentence
+   "State media quoted China 's top negotiator with Taipei , Tang Shubei , as telling a visiting group from Taiwan on Wednesday that it was time for the rivals to hold political talks .",
+   :type "Annotation",
+   :args_text ["Tang Shubei" "China"],
+   :updated_at "2014-08-23T10:30:52.336Z",
+   :user_id "A3DN99QMIS1RJ5",
+   :question_id "0374427fda8b64f189cecbd2ef0055ed",
+   :created_at "2014-08-23T10:30:52.336Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dbd676",
+   :_rev "1-b91dde79f3283d90d34ebeee741c50f6",
+   :sentence
+   "State media quoted China 's top negotiator with Taipei , Tang Shubei , as telling a visiting group from Taiwan on Wednesday that it was time for the rivals to hold political talks .",
+   :type "Annotation",
+   :args_text ["Tang Shubei" "China"],
+   :updated_at "2014-08-20T01:32:10.389Z",
+   :user_id "A3FW9NWR6TJ4M9",
+   :question_id "0374427fda8b64f189cecbd2ef0055ed",
+   :created_at "2014-08-20T01:32:10.389Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dcfeb3",
+   :_rev "1-6d20ef274edec1d23af8867e5945f9a4",
+   :sentence
+   "State media quoted China 's top negotiator with Taipei , Tang Shubei , as telling a visiting group from Taiwan on Wednesday that it was time for the rivals to hold political talks .",
+   :type "Annotation",
+   :args_text ["Tang Shubei" "China"],
+   :updated_at "2014-08-19T19:12:18.322Z",
+   :user_id "A3LXS3Y6NNTGG3",
+   :question_id "0374427fda8b64f189cecbd2ef0055ed",
+   :created_at "2014-08-19T19:12:18.322Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dacd82",
+   :_rev "1-704bf56cd0df594298d860d5a19eae66",
+   :sentence
+   "State media quoted China 's top negotiator with Taipei , Tang Shubei , as telling a visiting group from Taiwan on Wednesday that it was time for the rivals to hold political talks .",
+   :type "Annotation",
+   :args_text ["Tang Shubei" "China"],
+   :updated_at "2014-08-20T19:19:33.109Z",
+   :user_id "A3NV8GEG3IEEWG",
+   :question_id "0374427fda8b64f189cecbd2ef0055ed",
+   :created_at "2014-08-20T19:19:33.109Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "was born in",
+     :relation "/people/person/place_of_birth"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d797a3",
+   :_rev "1-4de88f9d6a9a06c0b1a8f1cc4dee96f4",
+   :sentence
+   "State media quoted China 's top negotiator with Taipei , Tang Shubei , as telling a visiting group from Taiwan on Wednesday that it was time for the rivals to hold political talks .",
+   :type "Annotation",
+   :args_text ["Tang Shubei" "China"],
+   :updated_at "2014-08-24T15:57:34.990Z",
+   :user_id "A3TT428V461KZN",
+   :question_id "0374427fda8b64f189cecbd2ef0055ed",
+   :created_at "2014-08-24T15:57:34.990Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8ddd2e1",
+   :_rev "1-910d3fd55af3db85536c5ec36246b408",
+   :sentence
+   "State media quoted China 's top negotiator with Taipei , Tang Shubei , as telling a visiting group from Taiwan on Wednesday that it was time for the rivals to hold political talks .",
+   :type "Annotation",
+   :args_text ["Tang Shubei" "China"],
+   :updated_at "2014-08-19T18:01:38.022Z",
+   :user_id "A3U1K9X1LXA5JA",
+   :question_id "0374427fda8b64f189cecbd2ef0055ed",
+   :created_at "2014-08-19T18:01:38.022Z"}]]
+["0374427fda8b64f189cecbd2ef001e89"
+ [{:response [],
+   :_id "556c2ee63030c09d4697a67db8bed561",
+   :_rev "1-607ae9c6731578dace58bab4a821c973",
+   :sentence
+   "A Florida restaurant paid 10,925 pounds ( $ 16,935 ) for the draft of \" Ai n't no telling \" , which Hendrix penned on a piece of London hotel stationery in late 1966 .",
+   :type "Annotation",
+   :args_text ["Hendrix" "London"],
+   :updated_at "2014-08-19T01:12:16.698Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef001e89",
+   :created_at "2014-08-19T01:12:16.698Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8d9d13d",
+   :_rev "1-d3389da82ab7d8f4853b73f5bd52813a",
+   :sentence
+   "A Florida restaurant paid 10,925 pounds ( $ 16,935 ) for the draft of \" Ai n't no telling \" , which Hendrix penned on a piece of London hotel stationery in late 1966 .",
+   :type "Annotation",
+   :args_text ["Hendrix" "London"],
+   :updated_at "2014-08-23T06:52:18.412Z",
+   :user_id "A1JVUD5XUB9H48",
+   :question_id "0374427fda8b64f189cecbd2ef001e89",
+   :created_at "2014-08-23T06:52:18.412Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8d99f5d",
+   :_rev "1-bab85d2a3c3f422ebaa76a22e512e915",
+   :sentence
+   "A Florida restaurant paid 10,925 pounds ( $ 16,935 ) for the draft of \" Ai n't no telling \" , which Hendrix penned on a piece of London hotel stationery in late 1966 .",
+   :type "Annotation",
+   :args_text ["Hendrix" "London"],
+   :updated_at "2014-08-23T10:28:35.240Z",
+   :user_id "A1RSAU5I9NZTOP",
+   :question_id "0374427fda8b64f189cecbd2ef001e89",
+   :created_at "2014-08-23T10:28:35.240Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8d8740c",
+   :_rev "1-df5952e6a2125d2d064118e563ce2022",
+   :sentence
+   "A Florida restaurant paid 10,925 pounds ( $ 16,935 ) for the draft of \" Ai n't no telling \" , which Hendrix penned on a piece of London hotel stationery in late 1966 .",
+   :type "Annotation",
+   :args_text ["Hendrix" "London"],
+   :updated_at "2014-08-24T12:17:19.374Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef001e89",
+   :created_at "2014-08-24T12:17:19.374Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8da4264",
+   :_rev "1-a0de9622761c409bc307a675eeaeb57a",
+   :sentence
+   "A Florida restaurant paid 10,925 pounds ( $ 16,935 ) for the draft of \" Ai n't no telling \" , which Hendrix penned on a piece of London hotel stationery in late 1966 .",
+   :type "Annotation",
+   :args_text ["Hendrix" "London"],
+   :updated_at "2014-08-22T12:39:38.129Z",
+   :user_id "A2OAFDRBQTWR2Q",
+   :question_id "0374427fda8b64f189cecbd2ef001e89",
+   :created_at "2014-08-22T12:39:38.129Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d9227b",
+   :_rev "1-b5ce46f2857bbc1651084f7336e8dc69",
+   :sentence
+   "A Florida restaurant paid 10,925 pounds ( $ 16,935 ) for the draft of \" Ai n't no telling \" , which Hendrix penned on a piece of London hotel stationery in late 1966 .",
+   :type "Annotation",
+   :args_text ["Hendrix" "London"],
+   :updated_at "2014-08-23T18:50:10.004Z",
+   :user_id "A2QHW6YQY7VGHJ",
+   :question_id "0374427fda8b64f189cecbd2ef001e89",
+   :created_at "2014-08-23T18:50:10.005Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8dc87e5",
+   :_rev "1-716cf53e0feb0bbb548e158925d1ff36",
+   :sentence
+   "A Florida restaurant paid 10,925 pounds ( $ 16,935 ) for the draft of \" Ai n't no telling \" , which Hendrix penned on a piece of London hotel stationery in late 1966 .",
+   :type "Annotation",
+   :args_text ["Hendrix" "London"],
+   :updated_at "2014-08-19T19:25:55.758Z",
+   :user_id "A2SYRFPPV9WDEG",
+   :question_id "0374427fda8b64f189cecbd2ef001e89",
+   :created_at "2014-08-19T19:25:55.758Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dd1fdf",
+   :_rev "1-babb6b56fe83229c7d85ea1b90376130",
+   :sentence
+   "A Florida restaurant paid 10,925 pounds ( $ 16,935 ) for the draft of \" Ai n't no telling \" , which Hendrix penned on a piece of London hotel stationery in late 1966 .",
+   :type "Annotation",
+   :args_text ["Hendrix" "London"],
+   :updated_at "2014-08-19T18:55:53.034Z",
+   :user_id "A2WDTJBM4ES5S4",
+   :question_id "0374427fda8b64f189cecbd2ef001e89",
+   :created_at "2014-08-19T18:55:53.034Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8dddbbe",
+   :_rev "1-db47a5b517cdf5c7c88903462e6c6f7d",
+   :sentence
+   "A Florida restaurant paid 10,925 pounds ( $ 16,935 ) for the draft of \" Ai n't no telling \" , which Hendrix penned on a piece of London hotel stationery in late 1966 .",
+   :type "Annotation",
+   :args_text ["Hendrix" "London"],
+   :updated_at "2014-08-19T18:01:19.862Z",
+   :user_id "A30JJ6BYT6ZAOO",
+   :question_id "0374427fda8b64f189cecbd2ef001e89",
+   :created_at "2014-08-19T18:01:19.863Z"}
+  {:response
+   [{:relation_display_name "died in",
+     :relation "/people/deceased_person/place_of_death"}],
+   :_id "556c2ee63030c09d4697a67db8dc07a7",
+   :_rev "1-d09f26b39a3f022abca6c6fb1b7224c6",
+   :sentence
+   "A Florida restaurant paid 10,925 pounds ( $ 16,935 ) for the draft of \" Ai n't no telling \" , which Hendrix penned on a piece of London hotel stationery in late 1966 .",
+   :type "Annotation",
+   :args_text ["Hendrix" "London"],
+   :updated_at "2014-08-20T01:28:39.999Z",
+   :user_id "A3FW9NWR6TJ4M9",
+   :question_id "0374427fda8b64f189cecbd2ef001e89",
+   :created_at "2014-08-20T01:28:39.999Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dcfd48",
+   :_rev "1-950ffdd26656d7df02bd7da353507a0a",
+   :sentence
+   "A Florida restaurant paid 10,925 pounds ( $ 16,935 ) for the draft of \" Ai n't no telling \" , which Hendrix penned on a piece of London hotel stationery in late 1966 .",
+   :type "Annotation",
+   :args_text ["Hendrix" "London"],
+   :updated_at "2014-08-19T19:12:20.215Z",
+   :user_id "A3LXS3Y6NNTGG3",
+   :question_id "0374427fda8b64f189cecbd2ef001e89",
+   :created_at "2014-08-19T19:12:20.215Z"}]]
+["0374427fda8b64f189cecbd2ef00566e"
+ [{:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8de275d",
+   :_rev "1-e5cbd8dfc14893486a0bd675fd3f2523",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-19T17:42:15.511Z",
+   :user_id "A1G187YBG0DVMQ",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-19T17:42:15.511Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8de9a63",
+   :_rev "1-6ee05202eb9aa3c85dbc3beec2bdf5e3",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-19T17:37:26.217Z",
+   :user_id "A1R0689JPSQ3OF",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-19T17:37:26.217Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d84e04",
+   :_rev "1-692ba8903905378508b5845754003239",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-24T12:19:51.590Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-24T12:19:51.591Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d871d6",
+   :_rev "1-719be1796b72b19e5bc511a39a3f91b2",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-24T12:17:36.827Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-24T12:17:36.827Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "was born in",
+     :relation "/people/person/place_of_birth"}],
+   :_id "556c2ee63030c09d4697a67db8db5ff0",
+   :_rev "1-73dcd7d555e522fe136e914e9c7d0ed4",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-20T06:48:04.250Z",
+   :user_id "A25QEOBUEVJ750",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-20T06:48:04.250Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dc14bb",
+   :_rev "1-5d288cf901eadd25b0cdeae7135dd492",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-19T20:45:53.744Z",
+   :user_id "A2AVWXK2DZHYCM",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-19T20:45:53.744Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d9f71c",
+   :_rev "1-a1937a88907b88585b17a0008d36e4b7",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-22T12:41:44.009Z",
+   :user_id "A2OAFDRBQTWR2Q",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-22T12:41:44.009Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d8d92a",
+   :_rev "1-8c04c8f629c337df1eaba7ccdeb8c693",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-23T18:54:57.557Z",
+   :user_id "A2QHW6YQY7VGHJ",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-23T18:54:57.557Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dd4020",
+   :_rev "1-85c6aeda9968168c5df988b83d3d9ca7",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-19T18:52:09.545Z",
+   :user_id "A2WDTJBM4ES5S4",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-19T18:52:09.545Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dd9fe5",
+   :_rev "1-f435e8d8e8da435072ac131024510600",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-19T18:03:58.641Z",
+   :user_id "A30JJ6BYT6ZAOO",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-19T18:03:58.641Z"}
+  {:response
+   [{:relation_display_name "was born in",
+     :relation "/people/person/place_of_birth"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dbf786",
+   :_rev "1-bca3e71d01308475ac4bcdfce17303a4",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-20T01:30:16.459Z",
+   :user_id "A3FW9NWR6TJ4M9",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-20T01:30:16.459Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dcf533",
+   :_rev "1-833b9f9b4c857fb18c41f4915df80560",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-19T19:12:28.096Z",
+   :user_id "A3LXS3Y6NNTGG3",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-19T19:12:28.096Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dab218",
+   :_rev "1-05faf1c3af01bac7d027a296730a934e",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-20T19:20:29.129Z",
+   :user_id "A3NV8GEG3IEEWG",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-20T19:20:29.129Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "was born in",
+     :relation "/people/person/place_of_birth"}],
+   :_id "556c2ee63030c09d4697a67db8d7904c",
+   :_rev "1-cf4f6cef80304172250f4516032f40b0",
+   :sentence
+   "China , which has long opposed all Taipei efforts to gain greater international recognition , was infuriated by a visit to Ukraine this week by Taiwanese Vice President Lien .",
+   :type "Annotation",
+   :args_text ["Lien" "Taiwanese"],
+   :updated_at "2014-08-24T15:57:50.865Z",
+   :user_id "A3TT428V461KZN",
+   :question_id "0374427fda8b64f189cecbd2ef00566e",
+   :created_at "2014-08-24T15:57:50.865Z"}]]
+["0374427fda8b64f189cecbd2ef006daa"
+ [{:response [],
+   :_id "556c2ee63030c09d4697a67db8de2d93",
+   :_rev "1-6d440a1a66d904eeea579fb447cc21dd",
+   :sentence
+   "Itamar Rabinovich , who as Israel 's ambassador to Washington conducted unfruitful negotiations with Syria , told Israel Radio it looked like Damascus wanted to talk rather than fight .",
+   :type "Annotation",
+   :args_text ["Itamar Rabinovich" "Israel"],
+   :updated_at "2014-08-19T17:41:53.653Z",
+   :user_id "A1G187YBG0DVMQ",
+   :question_id "0374427fda8b64f189cecbd2ef006daa",
+   :created_at "2014-08-19T17:41:53.653Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d9e0c4",
+   :_rev "1-bbb53d30d0c46c4bbc93cd89c1313e3f",
+   :sentence
+   "Itamar Rabinovich , who as Israel 's ambassador to Washington conducted unfruitful negotiations with Syria , told Israel Radio it looked like Damascus wanted to talk rather than fight .",
+   :type "Annotation",
+   :args_text ["Itamar Rabinovich" "Israel"],
+   :updated_at "2014-08-23T06:52:04.059Z",
+   :user_id "A1JVUD5XUB9H48",
+   :question_id "0374427fda8b64f189cecbd2ef006daa",
+   :created_at "2014-08-23T06:52:04.059Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8de6123",
+   :_rev "1-d1206c521c1e12f3a18ff4f5f1114dad",
+   :sentence
+   "Itamar Rabinovich , who as Israel 's ambassador to Washington conducted unfruitful negotiations with Syria , told Israel Radio it looked like Damascus wanted to talk rather than fight .",
+   :type "Annotation",
+   :args_text ["Itamar Rabinovich" "Israel"],
+   :updated_at "2014-08-19T17:38:41.127Z",
+   :user_id "A1R0689JPSQ3OF",
+   :question_id "0374427fda8b64f189cecbd2ef006daa",
+   :created_at "2014-08-19T17:38:41.127Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d95316",
+   :_rev "1-9d29d29c563b0c521564ff9389297734",
+   :sentence
+   "Itamar Rabinovich , who as Israel 's ambassador to Washington conducted unfruitful negotiations with Syria , told Israel Radio it looked like Damascus wanted to talk rather than fight .",
+   :type "Annotation",
+   :args_text ["Itamar Rabinovich" "Israel"],
+   :updated_at "2014-08-23T10:34:24.160Z",
+   :user_id "A1RSAU5I9NZTOP",
+   :question_id "0374427fda8b64f189cecbd2ef006daa",
+   :created_at "2014-08-23T10:34:24.160Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d81b3b",
+   :_rev "1-91a1995cdc40e6de427ef76e9c366b66",
+   :sentence
+   "Itamar Rabinovich , who as Israel 's ambassador to Washington conducted unfruitful negotiations with Syria , told Israel Radio it looked like Damascus wanted to talk rather than fight .",
+   :type "Annotation",
+   :args_text ["Itamar Rabinovich" "Israel"],
+   :updated_at "2014-08-24T12:20:43.764Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef006daa",
+   :created_at "2014-08-24T12:20:43.764Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dc6748",
+   :_rev "1-5597cf2db770f4d635e1e665f889d805",
+   :sentence
+   "Itamar Rabinovich , who as Israel 's ambassador to Washington conducted unfruitful negotiations with Syria , told Israel Radio it looked like Damascus wanted to talk rather than fight .",
+   :type "Annotation",
+   :args_text ["Itamar Rabinovich" "Israel"],
+   :updated_at "2014-08-19T20:42:41.328Z",
+   :user_id "A2AVWXK2DZHYCM",
+   :question_id "0374427fda8b64f189cecbd2ef006daa",
+   :created_at "2014-08-19T20:42:41.328Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8bebefb",
+   :_rev "1-1494ddeb3d96240f7eb75bb0caa74052",
+   :sentence
+   "Itamar Rabinovich , who as Israel 's ambassador to Washington conducted unfruitful negotiations with Syria , told Israel Radio it looked like Damascus wanted to talk rather than fight .",
+   :type "Annotation",
+   :args_text ["Itamar Rabinovich" "Israel"],
+   :updated_at "2014-08-19T02:17:41.198Z",
+   :user_id "A2LCFORIW0NF1S",
+   :question_id "0374427fda8b64f189cecbd2ef006daa",
+   :created_at "2014-08-19T02:17:41.198Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d9eb17",
+   :_rev "1-c8d68e6daa63f631ea35ad46d8dedc14",
+   :sentence
+   "Itamar Rabinovich , who as Israel 's ambassador to Washington conducted unfruitful negotiations with Syria , told Israel Radio it looked like Damascus wanted to talk rather than fight .",
+   :type "Annotation",
+   :args_text ["Itamar Rabinovich" "Israel"],
+   :updated_at "2014-08-22T12:41:50.570Z",
+   :user_id "A2OAFDRBQTWR2Q",
+   :question_id "0374427fda8b64f189cecbd2ef006daa",
+   :created_at "2014-08-22T12:41:50.570Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dc7e28",
+   :_rev "1-fb8d1d6bfcbd69e1410b1e149329b61e",
+   :sentence
+   "Itamar Rabinovich , who as Israel 's ambassador to Washington conducted unfruitful negotiations with Syria , told Israel Radio it looked like Damascus wanted to talk rather than fight .",
+   :type "Annotation",
+   :args_text ["Itamar Rabinovich" "Israel"],
+   :updated_at "2014-08-19T19:26:14.401Z",
+   :user_id "A2SYRFPPV9WDEG",
+   :question_id "0374427fda8b64f189cecbd2ef006daa",
+   :created_at "2014-08-19T19:26:14.401Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8ddab28",
+   :_rev "1-7acc32ac307136648d29919fc8566186",
+   :sentence
+   "Itamar Rabinovich , who as Israel 's ambassador to Washington conducted unfruitful negotiations with Syria , told Israel Radio it looked like Damascus wanted to talk rather than fight .",
+   :type "Annotation",
+   :args_text ["Itamar Rabinovich" "Israel"],
+   :updated_at "2014-08-19T18:03:41.756Z",
+   :user_id "A30JJ6BYT6ZAOO",
+   :question_id "0374427fda8b64f189cecbd2ef006daa",
+   :created_at "2014-08-19T18:03:41.756Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d9388a",
+   :_rev "1-6ff99e66bddb4f76c41da71a1dcc60d9",
+   :sentence
+   "Itamar Rabinovich , who as Israel 's ambassador to Washington conducted unfruitful negotiations with Syria , told Israel Radio it looked like Damascus wanted to talk rather than fight .",
+   :type "Annotation",
+   :args_text ["Itamar Rabinovich" "Israel"],
+   :updated_at "2014-08-23T10:35:58.548Z",
+   :user_id "A3DN99QMIS1RJ5",
+   :question_id "0374427fda8b64f189cecbd2ef006daa",
+   :created_at "2014-08-23T10:35:58.548Z"}]]
+["0374427fda8b64f189cecbd2ef004773"
+ [{:response [],
+   :_id "556c2ee63030c09d4697a67db8beecaa",
+   :_rev "1-be82aaa746acdbea0e6fb5b8bea7016f",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Taiwan"],
+   :updated_at "2014-08-19T01:10:52.557Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef004773",
+   :created_at "2014-08-19T01:10:52.558Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d86e47",
+   :_rev "1-88ea06199f869999491b398e9d782df3",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Taiwan"],
+   :updated_at "2014-08-24T12:18:16.243Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef004773",
+   :created_at "2014-08-24T12:18:16.243Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8bea894",
+   :_rev "1-d0c34244d2d7e57b0b22772d4a61b80f",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Taiwan"],
+   :updated_at "2014-08-19T02:18:55.023Z",
+   :user_id "A2LCFORIW0NF1S",
+   :question_id "0374427fda8b64f189cecbd2ef004773",
+   :created_at "2014-08-19T02:18:55.023Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8d9049e",
+   :_rev "1-5326635f55802b6ca100798c3e1b0649",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Taiwan"],
+   :updated_at "2014-08-23T18:53:20.262Z",
+   :user_id "A2QHW6YQY7VGHJ",
+   :question_id "0374427fda8b64f189cecbd2ef004773",
+   :created_at "2014-08-23T18:53:20.262Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dd2eda",
+   :_rev "1-522a28ca29239c6dbd4aba1b6864949c",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Taiwan"],
+   :updated_at "2014-08-19T18:53:32.225Z",
+   :user_id "A2WDTJBM4ES5S4",
+   :question_id "0374427fda8b64f189cecbd2ef004773",
+   :created_at "2014-08-19T18:53:32.225Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8ddc669",
+   :_rev "1-3becd1423a10c309be7345e877a35666",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Taiwan"],
+   :updated_at "2014-08-19T18:02:28.292Z",
+   :user_id "A30JJ6BYT6ZAOO",
+   :question_id "0374427fda8b64f189cecbd2ef004773",
+   :created_at "2014-08-19T18:02:28.292Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d980a4",
+   :_rev "1-b6c72d737c6c966ddf0fa0df031edf6f",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Taiwan"],
+   :updated_at "2014-08-23T10:32:06.747Z",
+   :user_id "A3DN99QMIS1RJ5",
+   :question_id "0374427fda8b64f189cecbd2ef004773",
+   :created_at "2014-08-23T10:32:06.747Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dcc527",
+   :_rev "1-751650ddcf282c189f657c80d91a22ee",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Taiwan"],
+   :updated_at "2014-08-19T19:13:36.270Z",
+   :user_id "A3LXS3Y6NNTGG3",
+   :question_id "0374427fda8b64f189cecbd2ef004773",
+   :created_at "2014-08-19T19:13:36.270Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dafe25",
+   :_rev "1-fb3686add477e26b105cb4e67fc41b60",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Taiwan"],
+   :updated_at "2014-08-20T19:17:25.302Z",
+   :user_id "A3NV8GEG3IEEWG",
+   :question_id "0374427fda8b64f189cecbd2ef004773",
+   :created_at "2014-08-20T19:17:25.302Z"}]]
+["0374427fda8b64f189cecbd2ef0059a7"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8bedb60",
+   :_rev "1-fc1d65861243e9c5ecb9fe9e69743051",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Simitis" "Greek"],
+   :updated_at "2014-08-19T01:12:04.194Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef0059a7",
+   :created_at "2014-08-19T01:12:04.194Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d82a70",
+   :_rev "1-87c2012792a73e966c3c37022fff0a62",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Simitis" "Greek"],
+   :updated_at "2014-08-24T12:20:27.193Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef0059a7",
+   :created_at "2014-08-24T12:20:27.193Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dc346a",
+   :_rev "1-18a5299ed6e9d90d1a835055aa6d003b",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Simitis" "Greek"],
+   :updated_at "2014-08-19T20:44:26.208Z",
+   :user_id "A2AVWXK2DZHYCM",
+   :question_id "0374427fda8b64f189cecbd2ef0059a7",
+   :created_at "2014-08-19T20:44:26.208Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dd2531",
+   :_rev "1-0f47ff6df27f945e57ee24ea143ee2bb",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Simitis" "Greek"],
+   :updated_at "2014-08-19T18:55:10.451Z",
+   :user_id "A2WDTJBM4ES5S4",
+   :question_id "0374427fda8b64f189cecbd2ef0059a7",
+   :created_at "2014-08-19T18:55:10.451Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8ddf1a4",
+   :_rev "1-9efb2c738890720478bc1e59776fb40f",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Simitis" "Greek"],
+   :updated_at "2014-08-19T17:59:32.087Z",
+   :user_id "A30JJ6BYT6ZAOO",
+   :question_id "0374427fda8b64f189cecbd2ef0059a7",
+   :created_at "2014-08-19T17:59:32.087Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8dbe839",
+   :_rev "1-86ae16b0852596f46f4e89e03e988d0d",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Simitis" "Greek"],
+   :updated_at "2014-08-20T01:30:44.422Z",
+   :user_id "A3FW9NWR6TJ4M9",
+   :question_id "0374427fda8b64f189cecbd2ef0059a7",
+   :created_at "2014-08-20T01:30:44.422Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dae58f",
+   :_rev "1-c6fcfcc727e21bb4dd9a53a04755630e",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Simitis" "Greek"],
+   :updated_at "2014-08-20T19:17:56.777Z",
+   :user_id "A3NV8GEG3IEEWG",
+   :question_id "0374427fda8b64f189cecbd2ef0059a7",
+   :created_at "2014-08-20T19:17:56.777Z"}]]
+["0374427fda8b64f189cecbd2ef018a13"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "e96a98114e2be14c1c91a8617619f571",
+   :_rev "1-0e06a3126c9b2d551814f86f186fecab",
+   :sentence
+   "Iraqi President Saddam Hussein has told visiting Russian ultra-nationalist Vladimir Zhirinovsky that Baghdad wanted to maintain \" friendship and cooperation \" with Moscow , official Iraqi newspapers said on Thursday .",
+   :type "Annotation",
+   :args_text ["Saddam Hussein" "Iraqi"],
+   :updated_at "2014-08-26T17:29:11.396Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef018a13",
+   :created_at "2014-08-26T17:29:11.396Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8fb4d26",
+   :_rev "1-4ca7c3d9a91f4826cf42d7cf887ef83c",
+   :sentence
+   "Iraqi President Saddam Hussein has told visiting Russian ultra-nationalist Vladimir Zhirinovsky that Baghdad wanted to maintain \" friendship and cooperation \" with Moscow , official Iraqi newspapers said on Thursday .",
+   :type "Annotation",
+   :args_text ["Saddam Hussein" "Iraqi"],
+   :updated_at "2014-08-26T00:25:08.481Z",
+   :user_id "A20WZVH48GFZ6V",
+   :question_id "0374427fda8b64f189cecbd2ef018a13",
+   :created_at "2014-08-26T00:25:08.481Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "e96a98114e2be14c1c91a86176198ae4",
+   :_rev "1-7b98ffa895d14edd1154b4243ce9a3f0",
+   :sentence
+   "Iraqi President Saddam Hussein has told visiting Russian ultra-nationalist Vladimir Zhirinovsky that Baghdad wanted to maintain \" friendship and cooperation \" with Moscow , official Iraqi newspapers said on Thursday .",
+   :type "Annotation",
+   :args_text ["Saddam Hussein" "Iraqi"],
+   :updated_at "2014-08-27T01:25:46.677Z",
+   :user_id "A2DLH5XGBNYXWS",
+   :question_id "0374427fda8b64f189cecbd2ef018a13",
+   :created_at "2014-08-27T01:25:46.677Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "e96a98114e2be14c1c91a8617619cbb4",
+   :_rev "1-789cd1c2533b3d2b02c555e5c374cbf3",
+   :sentence
+   "Iraqi President Saddam Hussein has told visiting Russian ultra-nationalist Vladimir Zhirinovsky that Baghdad wanted to maintain \" friendship and cooperation \" with Moscow , official Iraqi newspapers said on Thursday .",
+   :type "Annotation",
+   :args_text ["Saddam Hussein" "Iraqi"],
+   :updated_at "2014-08-26T22:47:02.359Z",
+   :user_id "A2MD7JLDQ34JB2",
+   :question_id "0374427fda8b64f189cecbd2ef018a13",
+   :created_at "2014-08-26T22:47:02.359Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8f8195c",
+   :_rev "1-47af830184f0507cabd1e711d21a5603",
+   :sentence
+   "Iraqi President Saddam Hussein has told visiting Russian ultra-nationalist Vladimir Zhirinovsky that Baghdad wanted to maintain \" friendship and cooperation \" with Moscow , official Iraqi newspapers said on Thursday .",
+   :type "Annotation",
+   :args_text ["Saddam Hussein" "Iraqi"],
+   :updated_at "2014-08-26T05:57:56.279Z",
+   :user_id "A2YW509B0UMSEH",
+   :question_id "0374427fda8b64f189cecbd2ef018a13",
+   :created_at "2014-08-26T05:57:56.279Z"}]]
+["0374427fda8b64f189cecbd2ef0065e2"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8bee720",
+   :_rev "1-9e7b71a05beca7c5e732dbc69aa67241",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Skandalidis" "Greek"],
+   :updated_at "2014-08-19T01:11:24.809Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef0065e2",
+   :created_at "2014-08-19T01:11:24.809Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d9352d",
+   :_rev "1-ff535d2e89d2674f609143df88b253ed",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Skandalidis" "Greek"],
+   :updated_at "2014-08-23T10:36:13.457Z",
+   :user_id "A1RSAU5I9NZTOP",
+   :question_id "0374427fda8b64f189cecbd2ef0065e2",
+   :created_at "2014-08-23T10:36:13.457Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d86386",
+   :_rev "1-ff02303d2cb5dc1351ea84e4a082e4aa",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Skandalidis" "Greek"],
+   :updated_at "2014-08-24T12:18:57.647Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef0065e2",
+   :created_at "2014-08-24T12:18:57.647Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8be9cd5",
+   :_rev "1-3e95125116d0850aaf4f0da2dbb66b13",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Skandalidis" "Greek"],
+   :updated_at "2014-08-19T02:18:56.945Z",
+   :user_id "A2LCFORIW0NF1S",
+   :question_id "0374427fda8b64f189cecbd2ef0065e2",
+   :created_at "2014-08-19T02:18:56.945Z"}
+  {:response
+   [{:relation_display_name "was born in",
+     :relation "/people/person/place_of_birth"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dbcf7c",
+   :_rev "1-c038f96150710ce26c1a99c90900d030",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Skandalidis" "Greek"],
+   :updated_at "2014-08-20T01:32:27.227Z",
+   :user_id "A3FW9NWR6TJ4M9",
+   :question_id "0374427fda8b64f189cecbd2ef0065e2",
+   :created_at "2014-08-20T01:32:27.227Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dabcfd",
+   :_rev "1-1bc5dc8f89a9594216accaed0f005296",
+   :sentence
+   "The Greek socialist party 's executive bureau gave the green light to Prime Minister Costas Simitis to call snap elections , its general secretary Costas Skandalidis told reporters .",
+   :type "Annotation",
+   :args_text ["Costas Skandalidis" "Greek"],
+   :updated_at "2014-08-20T19:20:12.065Z",
+   :user_id "A3NV8GEG3IEEWG",
+   :question_id "0374427fda8b64f189cecbd2ef0065e2",
+   :created_at "2014-08-20T19:20:12.065Z"}]]
+["0374427fda8b64f189cecbd2ef001194"
+ [{:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8bee154",
+   :_rev "1-bbf8c74816280ccd057a0cabd625f6f0",
+   :sentence
+   "A rare early handwritten draft of a song by U.S. guitar legend Jimi Hendrix was sold for almost $ 17,000 on Thursday at an auction of some of the late musician 's favourite possessions .",
+   :type "Annotation",
+   :args_text ["Jimi Hendrix" "U.S."],
+   :updated_at "2014-08-19T01:11:48.870Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef001194",
+   :created_at "2014-08-19T01:11:48.871Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8de7c8e",
+   :_rev "1-eb9be4c81436f7c9fb22cedeedd9ab4b",
+   :sentence
+   "A rare early handwritten draft of a song by U.S. guitar legend Jimi Hendrix was sold for almost $ 17,000 on Thursday at an auction of some of the late musician 's favourite possessions .",
+   :type "Annotation",
+   :args_text ["Jimi Hendrix" "U.S."],
+   :updated_at "2014-08-19T17:37:58.056Z",
+   :user_id "A1R0689JPSQ3OF",
+   :question_id "0374427fda8b64f189cecbd2ef001194",
+   :created_at "2014-08-19T17:37:58.056Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d97b9d",
+   :_rev "1-a258ca6980cf03bc00e2786b6f6e3881",
+   :sentence
+   "A rare early handwritten draft of a song by U.S. guitar legend Jimi Hendrix was sold for almost $ 17,000 on Thursday at an auction of some of the late musician 's favourite possessions .",
+   :type "Annotation",
+   :args_text ["Jimi Hendrix" "U.S."],
+   :updated_at "2014-08-23T10:32:17.973Z",
+   :user_id "A1RSAU5I9NZTOP",
+   :question_id "0374427fda8b64f189cecbd2ef001194",
+   :created_at "2014-08-23T10:32:17.973Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8dc5e66",
+   :_rev "1-512e343a79dac39da9e52746e0303eda",
+   :sentence
+   "A rare early handwritten draft of a song by U.S. guitar legend Jimi Hendrix was sold for almost $ 17,000 on Thursday at an auction of some of the late musician 's favourite possessions .",
+   :type "Annotation",
+   :args_text ["Jimi Hendrix" "U.S."],
+   :updated_at "2014-08-19T20:43:04.258Z",
+   :user_id "A2AVWXK2DZHYCM",
+   :question_id "0374427fda8b64f189cecbd2ef001194",
+   :created_at "2014-08-19T20:43:04.258Z"}
+  {:response
+   [{:relation_display_name "was born in",
+     :relation "/people/person/place_of_birth"}
+    {:relation_display_name "died in",
+     :relation "/people/deceased_person/place_of_death"}],
+   :_id "556c2ee63030c09d4697a67db8d90b22",
+   :_rev "1-793694b952929c7ca3fbfa620dc5c0f7",
+   :sentence
+   "A rare early handwritten draft of a song by U.S. guitar legend Jimi Hendrix was sold for almost $ 17,000 on Thursday at an auction of some of the late musician 's favourite possessions .",
+   :type "Annotation",
+   :args_text ["Jimi Hendrix" "U.S."],
+   :updated_at "2014-08-23T18:52:25.602Z",
+   :user_id "A2QHW6YQY7VGHJ",
+   :question_id "0374427fda8b64f189cecbd2ef001194",
+   :created_at "2014-08-23T18:52:25.602Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dae1c8",
+   :_rev "1-967acf7f81a9080147f4573c4a840584",
+   :sentence
+   "A rare early handwritten draft of a song by U.S. guitar legend Jimi Hendrix was sold for almost $ 17,000 on Thursday at an auction of some of the late musician 's favourite possessions .",
+   :type "Annotation",
+   :args_text ["Jimi Hendrix" "U.S."],
+   :updated_at "2014-08-20T19:18:26.886Z",
+   :user_id "A3NV8GEG3IEEWG",
+   :question_id "0374427fda8b64f189cecbd2ef001194",
+   :created_at "2014-08-20T19:18:26.886Z"}]]
+["0374427fda8b64f189cecbd2ef0028b9"
+ [{:response [],
+   :_id "556c2ee63030c09d4697a67db8de3da2",
+   :_rev "1-564ccaff119c408cc3ebd607c6986c2b",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "China"],
+   :updated_at "2014-08-19T17:41:39.792Z",
+   :user_id "A1G187YBG0DVMQ",
+   :question_id "0374427fda8b64f189cecbd2ef0028b9",
+   :created_at "2014-08-19T17:41:39.792Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dc369f",
+   :_rev "1-ecbec8a40db21e401e2353923544fe77",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "China"],
+   :updated_at "2014-08-19T20:44:23.991Z",
+   :user_id "A2AVWXK2DZHYCM",
+   :question_id "0374427fda8b64f189cecbd2ef0028b9",
+   :created_at "2014-08-19T20:44:23.991Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d90bac",
+   :_rev "1-041143471074420f564b2d4f449e0179",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "China"],
+   :updated_at "2014-08-23T18:51:52.801Z",
+   :user_id "A2QHW6YQY7VGHJ",
+   :question_id "0374427fda8b64f189cecbd2ef0028b9",
+   :created_at "2014-08-23T18:51:52.801Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dcb9e7",
+   :_rev "1-d124ba797ecb9dd23cbaebbb7e2bdb01",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "China"],
+   :updated_at "2014-08-19T19:24:43.092Z",
+   :user_id "A2SYRFPPV9WDEG",
+   :question_id "0374427fda8b64f189cecbd2ef0028b9",
+   :created_at "2014-08-19T19:24:43.092Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dcbd01",
+   :_rev "1-b5ab366b9f36321be05a70233ae21ae4",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "China"],
+   :updated_at "2014-08-19T19:24:42.752Z",
+   :user_id "A2SYRFPPV9WDEG",
+   :question_id "0374427fda8b64f189cecbd2ef0028b9",
+   :created_at "2014-08-19T19:24:42.752Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dde1c3",
+   :_rev "1-e2baaf86efa8be8c28c1c3e5583ac308",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "China"],
+   :updated_at "2014-08-19T18:00:32.667Z",
+   :user_id "A30JJ6BYT6ZAOO",
+   :question_id "0374427fda8b64f189cecbd2ef0028b9",
+   :created_at "2014-08-19T18:00:32.667Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d949a8",
+   :_rev "1-c37ae8b002f2a4be374a090b9111e5a6",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "China"],
+   :updated_at "2014-08-23T10:35:07.736Z",
+   :user_id "A3DN99QMIS1RJ5",
+   :question_id "0374427fda8b64f189cecbd2ef0028b9",
+   :created_at "2014-08-23T10:35:07.736Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dcdb58",
+   :_rev "1-3c8b439855574086c754b5196f0fcaa0",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "China"],
+   :updated_at "2014-08-19T19:13:04.420Z",
+   :user_id "A3LXS3Y6NNTGG3",
+   :question_id "0374427fda8b64f189cecbd2ef0028b9",
+   :created_at "2014-08-19T19:13:04.420Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d7c567",
+   :_rev "1-4357ba4ecfdbee178953c2d40d5060e4",
+   :sentence
+   "China on Thursday accused Taipei of spoiling the atmosphere for a resumption of talks across the Taiwan Strait with a visit to Ukraine by Taiwanese Vice President Lien Chan this week that infuriated Beijing .",
+   :type "Annotation",
+   :args_text ["Lien Chan" "China"],
+   :updated_at "2014-08-24T15:55:30.816Z",
+   :user_id "A3TT428V461KZN",
+   :question_id "0374427fda8b64f189cecbd2ef0028b9",
+   :created_at "2014-08-24T15:55:30.816Z"}]]
+["0374427fda8b64f189cecbd2ef014868"
+ [{:response [],
+   :_id "e96a98114e2be14c1c91a861761a5cdd",
+   :_rev "1-7a7dba5f0977cc0e6d18e1b7da527c75",
+   :sentence
+   "Palestinian officials said the Israeli government had barred Arafat from overflying Israel in a Palestinian helicopter to the West Bank in an attempt to bar the meeting with Peres .",
+   :type "Annotation",
+   :args_text ["Peres" "Israel"],
+   :updated_at "2014-08-26T17:26:12.409Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef014868",
+   :created_at "2014-08-26T17:26:12.409Z"}
+  {:response [],
+   :_id "e96a98114e2be14c1c91a861761a611f",
+   :_rev "1-dc46d05c3dda35e25cd166c24bac7d6d",
+   :sentence
+   "Palestinian officials said the Israeli government had barred Arafat from overflying Israel in a Palestinian helicopter to the West Bank in an attempt to bar the meeting with Peres .",
+   :type "Annotation",
+   :args_text ["Peres" "Israel"],
+   :updated_at "2014-08-26T17:26:09.585Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef014868",
+   :created_at "2014-08-26T17:26:09.585Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8fc683c",
+   :_rev "1-c97c1a1672003847f0110bf9b5ee3e08",
+   :sentence
+   "Palestinian officials said the Israeli government had barred Arafat from overflying Israel in a Palestinian helicopter to the West Bank in an attempt to bar the meeting with Peres .",
+   :type "Annotation",
+   :args_text ["Peres" "Israel"],
+   :updated_at "2014-08-25T23:21:54.692Z",
+   :user_id "A35RZ2HKE9VWJ5",
+   :question_id "0374427fda8b64f189cecbd2ef014868",
+   :created_at "2014-08-25T23:21:54.692Z"}
+  {:response
+   [{:relation_display_name "was born in",
+     :relation "/people/person/place_of_birth"}],
+   :_id "e96a98114e2be14c1c91a861761a918f",
+   :_rev "1-b79b869d086651a4841ccbc8ebf8ac04",
+   :sentence
+   "Palestinian officials said the Israeli government had barred Arafat from overflying Israel in a Palestinian helicopter to the West Bank in an attempt to bar the meeting with Peres .",
+   :type "Annotation",
+   :args_text ["Peres" "Israel"],
+   :updated_at "2014-08-26T17:24:45.791Z",
+   :user_id "A3AD3RQGTOJ49A",
+   :question_id "0374427fda8b64f189cecbd2ef014868",
+   :created_at "2014-08-26T17:24:45.791Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "e96a98114e2be14c1c91a861761b059e",
+   :_rev "1-2c3031992956f749ca66c21c16d65937",
+   :sentence
+   "Palestinian officials said the Israeli government had barred Arafat from overflying Israel in a Palestinian helicopter to the West Bank in an attempt to bar the meeting with Peres .",
+   :type "Annotation",
+   :args_text ["Peres" "Israel"],
+   :updated_at "2014-08-26T15:29:26.888Z",
+   :user_id "A3V7PZKF0VJS4R",
+   :question_id "0374427fda8b64f189cecbd2ef014868",
+   :created_at "2014-08-26T15:29:26.888Z"}]]
+["0374427fda8b64f189cecbd2ef003cc2"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8ded041",
+   :_rev "1-16350a8680a08b3b0c24ad7965280f27",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Chinese"],
+   :updated_at "2014-08-19T06:25:47.753Z",
+   :user_id "A199PKW9OWJOQV",
+   :question_id "0374427fda8b64f189cecbd2ef003cc2",
+   :created_at "2014-08-19T06:25:47.753Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8de4af5",
+   :_rev "1-07295e61f2af76062545ecae52a8c3ea",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Chinese"],
+   :updated_at "2014-08-19T17:39:36.839Z",
+   :user_id "A1R0689JPSQ3OF",
+   :question_id "0374427fda8b64f189cecbd2ef003cc2",
+   :created_at "2014-08-19T17:39:36.839Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d87a5b",
+   :_rev "1-4a4e0337e2af08d6049e618a12caac69",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Chinese"],
+   :updated_at "2014-08-24T12:16:57.807Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef003cc2",
+   :created_at "2014-08-24T12:16:57.807Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dc594d",
+   :_rev "1-2d7745aa154378e79cf2e7e66f858858",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Chinese"],
+   :updated_at "2014-08-19T20:43:30.718Z",
+   :user_id "A2AVWXK2DZHYCM",
+   :question_id "0374427fda8b64f189cecbd2ef003cc2",
+   :created_at "2014-08-19T20:43:30.719Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d9fac6",
+   :_rev "1-6ffd24c2f77f5f7395275d20c233377c",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Chinese"],
+   :updated_at "2014-08-22T12:41:34.128Z",
+   :user_id "A2OAFDRBQTWR2Q",
+   :question_id "0374427fda8b64f189cecbd2ef003cc2",
+   :created_at "2014-08-22T12:41:34.129Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dcaeff",
+   :_rev "1-bb236c4958112c81d78ef0e2220cd39a",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Chinese"],
+   :updated_at "2014-08-19T19:25:11.699Z",
+   :user_id "A2SYRFPPV9WDEG",
+   :question_id "0374427fda8b64f189cecbd2ef003cc2",
+   :created_at "2014-08-19T19:25:11.699Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d972ba",
+   :_rev "1-6fe5c52c68d0f8641fb316b3dc4178ae",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Chinese"],
+   :updated_at "2014-08-23T10:32:42.029Z",
+   :user_id "A3DN99QMIS1RJ5",
+   :question_id "0374427fda8b64f189cecbd2ef003cc2",
+   :created_at "2014-08-23T10:32:42.029Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d78091",
+   :_rev "1-69ccb42d34344e925749a0930c80fde2",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Chinese"],
+   :updated_at "2014-08-24T15:58:44.736Z",
+   :user_id "A3TT428V461KZN",
+   :question_id "0374427fda8b64f189cecbd2ef003cc2",
+   :created_at "2014-08-24T15:58:44.736Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8ddd73b",
+   :_rev "1-cd92812fa27f32d343cd438a763a6bcc",
+   :sentence
+   "Speaking only hours after Chinese state media said the time was right to engage in political talks with Taiwan , Foreign Ministry spokesman Shen Guofang told Reuters : \" The necessary atmosphere for the opening of the talks has been disrupted by the Taiwan authorities . \"",
+   :type "Annotation",
+   :args_text ["Shen Guofang" "Chinese"],
+   :updated_at "2014-08-19T18:01:25.526Z",
+   :user_id "A3U1K9X1LXA5JA",
+   :question_id "0374427fda8b64f189cecbd2ef003cc2",
+   :created_at "2014-08-19T18:01:25.526Z"}]]
+["0374427fda8b64f189cecbd2ef016398"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "e96a98114e2be14c1c91a861761a4042",
+   :_rev "1-5c9059d2b19b3a48aedff96e24e8ecf4",
+   :sentence
+   "Israeli Prime Minister Benjamin Netanyahu has accused opposition leader Peres , who he defeated in May elections , of trying to undermine his Likud government 's authority to conduct peace talks .",
+   :type "Annotation",
+   :args_text ["Peres" "Israeli"],
+   :updated_at "2014-08-26T17:27:38.024Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef016398",
+   :created_at "2014-08-26T17:27:38.024Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "e96a98114e2be14c1c91a8617619e1b3",
+   :_rev "1-b4c612521e2f38095b6d1c8f8704e102",
+   :sentence
+   "Israeli Prime Minister Benjamin Netanyahu has accused opposition leader Peres , who he defeated in May elections , of trying to undermine his Likud government 's authority to conduct peace talks .",
+   :type "Annotation",
+   :args_text ["Peres" "Israeli"],
+   :updated_at "2014-08-26T22:46:08.260Z",
+   :user_id "A2MD7JLDQ34JB2",
+   :question_id "0374427fda8b64f189cecbd2ef016398",
+   :created_at "2014-08-26T22:46:08.260Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "e96a98114e2be14c1c91a861761a7a30",
+   :_rev "1-130065d4a960bf7d194bc7a43057e792",
+   :sentence
+   "Israeli Prime Minister Benjamin Netanyahu has accused opposition leader Peres , who he defeated in May elections , of trying to undermine his Likud government 's authority to conduct peace talks .",
+   :type "Annotation",
+   :args_text ["Peres" "Israeli"],
+   :updated_at "2014-08-26T17:25:33.373Z",
+   :user_id "A3AD3RQGTOJ49A",
+   :question_id "0374427fda8b64f189cecbd2ef016398",
+   :created_at "2014-08-26T17:25:33.373Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8fb8232",
+   :_rev "1-6927ac1891cdd3707938ba1c78e2083c",
+   :sentence
+   "Israeli Prime Minister Benjamin Netanyahu has accused opposition leader Peres , who he defeated in May elections , of trying to undermine his Likud government 's authority to conduct peace talks .",
+   :type "Annotation",
+   :args_text ["Peres" "Israeli"],
+   :updated_at "2014-08-26T00:07:11.194Z",
+   :user_id "A3N83HEY2OB1NA",
+   :question_id "0374427fda8b64f189cecbd2ef016398",
+   :created_at "2014-08-26T00:07:11.194Z"}
+  {:response
+   [{:relation_display_name "was born in",
+     :relation "/people/person/place_of_birth"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "e96a98114e2be14c1c91a861761ae284",
+   :_rev "1-9db10c4a1267783be77ab0d186939ba8",
+   :sentence
+   "Israeli Prime Minister Benjamin Netanyahu has accused opposition leader Peres , who he defeated in May elections , of trying to undermine his Likud government 's authority to conduct peace talks .",
+   :type "Annotation",
+   :args_text ["Peres" "Israeli"],
+   :updated_at "2014-08-26T15:30:10.765Z",
+   :user_id "A3V7PZKF0VJS4R",
+   :question_id "0374427fda8b64f189cecbd2ef016398",
+   :created_at "2014-08-26T15:30:10.765Z"}]]
+["0374427fda8b64f189cecbd2ef0086a1"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8bedc42",
+   :_rev "1-8e3b6d17d6c52e850792e3bc0e021bca",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Syrian"],
+   :updated_at "2014-08-19T01:11:55.723Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef0086a1",
+   :created_at "2014-08-19T01:11:55.723Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dec667",
+   :_rev "1-be1648fdc383de85ba61465fc87b8ff9",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Syrian"],
+   :updated_at "2014-08-19T06:26:47.652Z",
+   :user_id "A199PKW9OWJOQV",
+   :question_id "0374427fda8b64f189cecbd2ef0086a1",
+   :created_at "2014-08-19T06:26:47.652Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d88178",
+   :_rev "1-e51194b8c138f8ca88c47e7a7313a22f",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Syrian"],
+   :updated_at "2014-08-24T12:16:28.560Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef0086a1",
+   :created_at "2014-08-24T12:16:28.560Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dc40ba",
+   :_rev "1-a386d90f0a15621a59bfcb05253af89f",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Syrian"],
+   :updated_at "2014-08-19T20:43:48.661Z",
+   :user_id "A2AVWXK2DZHYCM",
+   :question_id "0374427fda8b64f189cecbd2ef0086a1",
+   :created_at "2014-08-19T20:43:48.662Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8beafa0",
+   :_rev "1-f9992d4aae024c69858b0f35a6723a8e",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Syrian"],
+   :updated_at "2014-08-19T02:18:11.742Z",
+   :user_id "A2LCFORIW0NF1S",
+   :question_id "0374427fda8b64f189cecbd2ef0086a1",
+   :created_at "2014-08-19T02:18:11.742Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8dc6e38",
+   :_rev "1-38dc707d67a2df67ffacf5d34b3ba56a",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Syrian"],
+   :updated_at "2014-08-19T19:26:32.162Z",
+   :user_id "A2SYRFPPV9WDEG",
+   :question_id "0374427fda8b64f189cecbd2ef0086a1",
+   :created_at "2014-08-19T19:26:32.162Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dd1438",
+   :_rev "1-2ab30010e9b1df75b2470e6636d202c3",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Syrian"],
+   :updated_at "2014-08-19T18:56:34.409Z",
+   :user_id "A2WDTJBM4ES5S4",
+   :question_id "0374427fda8b64f189cecbd2ef0086a1",
+   :created_at "2014-08-19T18:56:34.409Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8ddcac9",
+   :_rev "1-1ffbe01607aad3dd9848ee69940ac61a",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Syrian"],
+   :updated_at "2014-08-19T18:01:44.970Z",
+   :user_id "A30JJ6BYT6ZAOO",
+   :question_id "0374427fda8b64f189cecbd2ef0086a1",
+   :created_at "2014-08-19T18:01:44.970Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d94db4",
+   :_rev "1-2e49b7fc9248763123e0e3e2e6303916",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Syrian"],
+   :updated_at "2014-08-23T10:34:28.507Z",
+   :user_id "A3DN99QMIS1RJ5",
+   :question_id "0374427fda8b64f189cecbd2ef0086a1",
+   :created_at "2014-08-23T10:34:28.507Z"}]]
+["0374427fda8b64f189cecbd2ef000f20"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dee5e7",
+   :_rev "1-e8d15105d265f7421ff286dda7a5f42d",
+   :sentence
+   "Spanish Farm Minister Loyola de Palacio had earlier accused Fischler at an EU farm ministers ' meeting of causing unjustified alarm through \" dangerous generalisation . \"",
+   :type "Annotation",
+   :args_text ["Loyola de Palacio" "Spanish"],
+   :updated_at "2014-08-19T06:21:10.787Z",
+   :user_id "A199PKW9OWJOQV",
+   :question_id "0374427fda8b64f189cecbd2ef000f20",
+   :created_at "2014-08-19T06:21:10.787Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8de46b2",
+   :_rev "1-a1b1721e916cb95d5f32b9750bdd4b1b",
+   :sentence
+   "Spanish Farm Minister Loyola de Palacio had earlier accused Fischler at an EU farm ministers ' meeting of causing unjustified alarm through \" dangerous generalisation . \"",
+   :type "Annotation",
+   :args_text ["Loyola de Palacio" "Spanish"],
+   :updated_at "2014-08-19T17:41:17.914Z",
+   :user_id "A1G187YBG0DVMQ",
+   :question_id "0374427fda8b64f189cecbd2ef000f20",
+   :created_at "2014-08-19T17:41:17.914Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d9ba71",
+   :_rev "1-d0ce54c44f4301e4e62772605aade904",
+   :sentence
+   "Spanish Farm Minister Loyola de Palacio had earlier accused Fischler at an EU farm ministers ' meeting of causing unjustified alarm through \" dangerous generalisation . \"",
+   :type "Annotation",
+   :args_text ["Loyola de Palacio" "Spanish"],
+   :updated_at "2014-08-23T10:23:10.682Z",
+   :user_id "A1RSAU5I9NZTOP",
+   :question_id "0374427fda8b64f189cecbd2ef000f20",
+   :created_at "2014-08-23T10:23:10.682Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dc0ab1",
+   :_rev "1-8bc7735991198b724525d77a2dd7a9af",
+   :sentence
+   "Spanish Farm Minister Loyola de Palacio had earlier accused Fischler at an EU farm ministers ' meeting of causing unjustified alarm through \" dangerous generalisation . \"",
+   :type "Annotation",
+   :args_text ["Loyola de Palacio" "Spanish"],
+   :updated_at "2014-08-19T22:37:39.314Z",
+   :user_id "A21SF3IKIZB0VN",
+   :question_id "0374427fda8b64f189cecbd2ef000f20",
+   :created_at "2014-08-19T22:37:39.314Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8be9689",
+   :_rev "1-fb7c25ce05f96ae574165798465a20bb",
+   :sentence
+   "Spanish Farm Minister Loyola de Palacio had earlier accused Fischler at an EU farm ministers ' meeting of causing unjustified alarm through \" dangerous generalisation . \"",
+   :type "Annotation",
+   :args_text ["Loyola de Palacio" "Spanish"],
+   :updated_at "2014-08-19T02:19:51.436Z",
+   :user_id "A2LCFORIW0NF1S",
+   :question_id "0374427fda8b64f189cecbd2ef000f20",
+   :created_at "2014-08-19T02:19:51.436Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8bf09f6",
+   :_rev "1-48888f54a61c3ac902cf955add0b89e1",
+   :sentence
+   "Spanish Farm Minister Loyola de Palacio had earlier accused Fischler at an EU farm ministers ' meeting of causing unjustified alarm through \" dangerous generalisation . \"",
+   :type "Annotation",
+   :args_text ["Loyola de Palacio" "Spanish"],
+   :updated_at "2014-08-18T18:02:27.548Z",
+   :user_id "A2QLSHXNCHBRN4",
+   :question_id "0374427fda8b64f189cecbd2ef000f20",
+   :created_at "2014-08-18T18:02:27.548Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dd0b2f",
+   :_rev "1-df6becca9b05a443993130718dc18f8c",
+   :sentence
+   "Spanish Farm Minister Loyola de Palacio had earlier accused Fischler at an EU farm ministers ' meeting of causing unjustified alarm through \" dangerous generalisation . \"",
+   :type "Annotation",
+   :args_text ["Loyola de Palacio" "Spanish"],
+   :updated_at "2014-08-19T18:56:49.715Z",
+   :user_id "A2WDTJBM4ES5S4",
+   :question_id "0374427fda8b64f189cecbd2ef000f20",
+   :created_at "2014-08-19T18:56:49.715Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dbe1d7",
+   :_rev "1-a7b2a1da3bfd9521a64773f9b0e89635",
+   :sentence
+   "Spanish Farm Minister Loyola de Palacio had earlier accused Fischler at an EU farm ministers ' meeting of causing unjustified alarm through \" dangerous generalisation . \"",
+   :type "Annotation",
+   :args_text ["Loyola de Palacio" "Spanish"],
+   :updated_at "2014-08-20T01:30:55.289Z",
+   :user_id "A3FW9NWR6TJ4M9",
+   :question_id "0374427fda8b64f189cecbd2ef000f20",
+   :created_at "2014-08-20T01:30:55.289Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dd09cc",
+   :_rev "1-c6fedef831f5acae425afc34d0792020",
+   :sentence
+   "Spanish Farm Minister Loyola de Palacio had earlier accused Fischler at an EU farm ministers ' meeting of causing unjustified alarm through \" dangerous generalisation . \"",
+   :type "Annotation",
+   :args_text ["Loyola de Palacio" "Spanish"],
+   :updated_at "2014-08-19T19:11:34.412Z",
+   :user_id "A3LXS3Y6NNTGG3",
+   :question_id "0374427fda8b64f189cecbd2ef000f20",
+   :created_at "2014-08-19T19:11:34.412Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dad720",
+   :_rev "1-26bc5b087224e11811614d9b1bef9e13",
+   :sentence
+   "Spanish Farm Minister Loyola de Palacio had earlier accused Fischler at an EU farm ministers ' meeting of causing unjustified alarm through \" dangerous generalisation . \"",
+   :type "Annotation",
+   :args_text ["Loyola de Palacio" "Spanish"],
+   :updated_at "2014-08-20T19:19:03.213Z",
+   :user_id "A3NV8GEG3IEEWG",
+   :question_id "0374427fda8b64f189cecbd2ef000f20",
+   :created_at "2014-08-20T19:19:03.214Z"}
+  {:response
+   [{:relation_display_name "was born in",
+     :relation "/people/person/place_of_birth"}],
+   :_id "556c2ee63030c09d4697a67db8daacdf",
+   :_rev "1-e04baacfa14f4be436cd0a5d9350eef9",
+   :sentence
+   "Spanish Farm Minister Loyola de Palacio had earlier accused Fischler at an EU farm ministers ' meeting of causing unjustified alarm through \" dangerous generalisation . \"",
+   :type "Annotation",
+   :args_text ["Loyola de Palacio" "Spanish"],
+   :updated_at "2014-08-21T14:33:54.550Z",
+   :user_id "A3QZMGTVA4VO44",
+   :question_id "0374427fda8b64f189cecbd2ef000f20",
+   :created_at "2014-08-21T14:33:54.550Z"}]]
+["0374427fda8b64f189cecbd2ef0098a8"
+ [{:response [],
+   :_id "556c2ee63030c09d4697a67db8dea70f",
+   :_rev "1-857abce4f25a778b07ff1148843392ae",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Syrian"],
+   :updated_at "2014-08-19T17:37:06.521Z",
+   :user_id "A1R0689JPSQ3OF",
+   :question_id "0374427fda8b64f189cecbd2ef0098a8",
+   :created_at "2014-08-19T17:37:06.521Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d859ea",
+   :_rev "1-c8f05a434919d077c1635a025bd177dd",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Syrian"],
+   :updated_at "2014-08-24T12:19:25.673Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef0098a8",
+   :created_at "2014-08-24T12:19:25.673Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dc4c55",
+   :_rev "1-9e773a1b5149490e9410c1937ecfa74f",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Syrian"],
+   :updated_at "2014-08-19T20:43:46.961Z",
+   :user_id "A2AVWXK2DZHYCM",
+   :question_id "0374427fda8b64f189cecbd2ef0098a8",
+   :created_at "2014-08-19T20:43:46.961Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8be8861",
+   :_rev "1-a81edb6ee3d2f5a64a5847d01e5ff21f",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Syrian"],
+   :updated_at "2014-08-19T02:20:09.033Z",
+   :user_id "A2LCFORIW0NF1S",
+   :question_id "0374427fda8b64f189cecbd2ef0098a8",
+   :created_at "2014-08-19T02:20:09.033Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8da21ca",
+   :_rev "1-9dbbf4ee56a08f71a743be10676a96b3",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Syrian"],
+   :updated_at "2014-08-22T12:40:24.458Z",
+   :user_id "A2OAFDRBQTWR2Q",
+   :question_id "0374427fda8b64f189cecbd2ef0098a8",
+   :created_at "2014-08-22T12:40:24.458Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d8f829",
+   :_rev "1-d171ba46edced20da66ae7ae7a712646",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Syrian"],
+   :updated_at "2014-08-23T18:53:30.672Z",
+   :user_id "A2QHW6YQY7VGHJ",
+   :question_id "0374427fda8b64f189cecbd2ef0098a8",
+   :created_at "2014-08-23T18:53:30.672Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dc67f4",
+   :_rev "1-29f7ac412d29253e46e8515f086c7d1f",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Syrian"],
+   :updated_at "2014-08-19T19:26:35.901Z",
+   :user_id "A2SYRFPPV9WDEG",
+   :question_id "0374427fda8b64f189cecbd2ef0098a8",
+   :created_at "2014-08-19T19:26:35.901Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dbf7de",
+   :_rev "1-3570319dc6d551b2703acef922f7a6b1",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Syrian"],
+   :updated_at "2014-08-20T01:29:52.833Z",
+   :user_id "A3FW9NWR6TJ4M9",
+   :question_id "0374427fda8b64f189cecbd2ef0098a8",
+   :created_at "2014-08-20T01:29:52.833Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dab222",
+   :_rev "1-1c1a454cb14b7631a2961d04c9b183de",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Syrian"],
+   :updated_at "2014-08-20T19:20:28.422Z",
+   :user_id "A3NV8GEG3IEEWG",
+   :question_id "0374427fda8b64f189cecbd2ef0098a8",
+   :created_at "2014-08-20T19:20:28.422Z"}]]
+["0374427fda8b64f189cecbd2ef00a59e"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8de4630",
+   :_rev "1-ebada447a70784ef22f2eac788141cb5",
+   :sentence
+   "Tension has mounted since Israeli Prime Minister Benjamin Netanyahu took office in June vowing to retain the Golan Heights Israel captured from Syria in the 1967 Middle East war .",
+   :type "Annotation",
+   :args_text ["Benjamin Netanyahu" "Israeli"],
+   :updated_at "2014-08-19T17:41:29.280Z",
+   :user_id "A1G187YBG0DVMQ",
+   :question_id "0374427fda8b64f189cecbd2ef00a59e",
+   :created_at "2014-08-19T17:41:29.280Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d9abee",
+   :_rev "1-9173b6e9ecc2f4ac730f2106311688ee",
+   :sentence
+   "Tension has mounted since Israeli Prime Minister Benjamin Netanyahu took office in June vowing to retain the Golan Heights Israel captured from Syria in the 1967 Middle East war .",
+   :type "Annotation",
+   :args_text ["Benjamin Netanyahu" "Israeli"],
+   :updated_at "2014-08-23T10:25:58.621Z",
+   :user_id "A1RSAU5I9NZTOP",
+   :question_id "0374427fda8b64f189cecbd2ef00a59e",
+   :created_at "2014-08-23T10:25:58.621Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8d886a4",
+   :_rev "1-c387c8e7ea6539ba953c4aebfaae34a3",
+   :sentence
+   "Tension has mounted since Israeli Prime Minister Benjamin Netanyahu took office in June vowing to retain the Golan Heights Israel captured from Syria in the 1967 Middle East war .",
+   :type "Annotation",
+   :args_text ["Benjamin Netanyahu" "Israeli"],
+   :updated_at "2014-08-24T12:16:03.895Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef00a59e",
+   :created_at "2014-08-24T12:16:03.895Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8bec700",
+   :_rev "1-8fe78785c2f2f9cce4cd76722508ada0",
+   :sentence
+   "Tension has mounted since Israeli Prime Minister Benjamin Netanyahu took office in June vowing to retain the Golan Heights Israel captured from Syria in the 1967 Middle East war .",
+   :type "Annotation",
+   :args_text ["Benjamin Netanyahu" "Israeli"],
+   :updated_at "2014-08-19T02:17:14.377Z",
+   :user_id "A2LCFORIW0NF1S",
+   :question_id "0374427fda8b64f189cecbd2ef00a59e",
+   :created_at "2014-08-19T02:17:14.377Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8ddb0f0",
+   :_rev "1-36ed4633231798b3b678bf7afe7794b3",
+   :sentence
+   "Tension has mounted since Israeli Prime Minister Benjamin Netanyahu took office in June vowing to retain the Golan Heights Israel captured from Syria in the 1967 Middle East war .",
+   :type "Annotation",
+   :args_text ["Benjamin Netanyahu" "Israeli"],
+   :updated_at "2014-08-19T18:03:14.790Z",
+   :user_id "A30JJ6BYT6ZAOO",
+   :question_id "0374427fda8b64f189cecbd2ef00a59e",
+   :created_at "2014-08-19T18:03:14.790Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d95ed8",
+   :_rev "1-a0db86f7a388c84dae60d9c9cb8ebca9",
+   :sentence
+   "Tension has mounted since Israeli Prime Minister Benjamin Netanyahu took office in June vowing to retain the Golan Heights Israel captured from Syria in the 1967 Middle East war .",
+   :type "Annotation",
+   :args_text ["Benjamin Netanyahu" "Israeli"],
+   :updated_at "2014-08-23T10:33:58.416Z",
+   :user_id "A3DN99QMIS1RJ5",
+   :question_id "0374427fda8b64f189cecbd2ef00a59e",
+   :created_at "2014-08-23T10:33:58.416Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dc020a",
+   :_rev "1-591990ed0bf84b96cd0b7918f20276a9",
+   :sentence
+   "Tension has mounted since Israeli Prime Minister Benjamin Netanyahu took office in June vowing to retain the Golan Heights Israel captured from Syria in the 1967 Middle East war .",
+   :type "Annotation",
+   :args_text ["Benjamin Netanyahu" "Israeli"],
+   :updated_at "2014-08-20T01:29:28.223Z",
+   :user_id "A3FW9NWR6TJ4M9",
+   :question_id "0374427fda8b64f189cecbd2ef00a59e",
+   :created_at "2014-08-20T01:29:28.223Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8daccce",
+   :_rev "1-0ce29da3060faaa6315da03255eb6f0c",
+   :sentence
+   "Tension has mounted since Israeli Prime Minister Benjamin Netanyahu took office in June vowing to retain the Golan Heights Israel captured from Syria in the 1967 Middle East war .",
+   :type "Annotation",
+   :args_text ["Benjamin Netanyahu" "Israeli"],
+   :updated_at "2014-08-20T19:19:53.577Z",
+   :user_id "A3NV8GEG3IEEWG",
+   :question_id "0374427fda8b64f189cecbd2ef00a59e",
+   :created_at "2014-08-20T19:19:53.577Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "was born in",
+     :relation "/people/person/place_of_birth"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8d7b491",
+   :_rev "1-dea181ff21f13d6438c033c096e1bef9",
+   :sentence
+   "Tension has mounted since Israeli Prime Minister Benjamin Netanyahu took office in June vowing to retain the Golan Heights Israel captured from Syria in the 1967 Middle East war .",
+   :type "Annotation",
+   :args_text ["Benjamin Netanyahu" "Israeli"],
+   :updated_at "2014-08-24T15:56:44.953Z",
+   :user_id "A3TT428V461KZN",
+   :question_id "0374427fda8b64f189cecbd2ef00a59e",
+   :created_at "2014-08-24T15:56:44.953Z"}]]
+["0374427fda8b64f189cecbd2ef01785f"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "e96a98114e2be14c1c91a861761a150b",
+   :_rev "1-0a4d195bd40d627d5453ecec4cff6632",
+   :sentence "Iraq 's Saddam meets Russia 's Zhirinovsky .",
+   :type "Annotation",
+   :args_text ["Saddam" "Iraq"],
+   :updated_at "2014-08-26T17:28:21.788Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef01785f",
+   :created_at "2014-08-26T17:28:21.788Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "e96a98114e2be14c1c91a8617619d758",
+   :_rev "1-c201020b7f1ab6c3fbbb75230f2651af",
+   :sentence "Iraq 's Saddam meets Russia 's Zhirinovsky .",
+   :type "Annotation",
+   :args_text ["Saddam" "Iraq"],
+   :updated_at "2014-08-26T22:46:52.875Z",
+   :user_id "A2MD7JLDQ34JB2",
+   :question_id "0374427fda8b64f189cecbd2ef01785f",
+   :created_at "2014-08-26T22:46:52.875Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8f97898",
+   :_rev "1-ae6f071175036015daf4eb7e2fd8a405",
+   :sentence "Iraq 's Saddam meets Russia 's Zhirinovsky .",
+   :type "Annotation",
+   :args_text ["Saddam" "Iraq"],
+   :updated_at "2014-08-26T02:56:35.062Z",
+   :user_id "A36CA84QRHPL2Z",
+   :question_id "0374427fda8b64f189cecbd2ef01785f",
+   :created_at "2014-08-26T02:56:35.062Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "was born in",
+     :relation "/people/person/place_of_birth"}],
+   :_id "e96a98114e2be14c1c91a861761a2aae",
+   :_rev "1-6175d1bc2d1824f872d309188ebc2865",
+   :sentence "Iraq 's Saddam meets Russia 's Zhirinovsky .",
+   :type "Annotation",
+   :args_text ["Saddam" "Iraq"],
+   :updated_at "2014-08-26T17:27:57.096Z",
+   :user_id "A3AD3RQGTOJ49A",
+   :question_id "0374427fda8b64f189cecbd2ef01785f",
+   :created_at "2014-08-26T17:27:57.096Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8f956ba",
+   :_rev "1-442bae09c9d41b3ad23bfc37831892b0",
+   :sentence "Iraq 's Saddam meets Russia 's Zhirinovsky .",
+   :type "Annotation",
+   :args_text ["Saddam" "Iraq"],
+   :updated_at "2014-08-26T02:57:45.763Z",
+   :user_id "A3VQLIGEFIPKAP",
+   :question_id "0374427fda8b64f189cecbd2ef01785f",
+   :created_at "2014-08-26T02:57:45.763Z"}]]
+["0374427fda8b64f189cecbd2ef007213"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8bf0795",
+   :_rev "1-a9c53df42ef08d3a0dfcae1e34ee7ab4",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Syrian"],
+   :updated_at "2014-08-19T01:09:02.273Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef007213",
+   :created_at "2014-08-19T01:09:02.273Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8de27e7",
+   :_rev "1-176e18fc0893c8b45f2a52bac2eec0cf",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Syrian"],
+   :updated_at "2014-08-19T17:42:01.729Z",
+   :user_id "A1G187YBG0DVMQ",
+   :question_id "0374427fda8b64f189cecbd2ef007213",
+   :created_at "2014-08-19T17:42:01.729Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d827ef",
+   :_rev "1-daade6a05cde47e759a932bc93a9f870",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Syrian"],
+   :updated_at "2014-08-24T12:20:35.598Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef007213",
+   :created_at "2014-08-24T12:20:35.598Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8da2ffd",
+   :_rev "1-1742a55275fbc3d4222c968ed1de9adb",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Syrian"],
+   :updated_at "2014-08-22T12:40:10.652Z",
+   :user_id "A2OAFDRBQTWR2Q",
+   :question_id "0374427fda8b64f189cecbd2ef007213",
+   :created_at "2014-08-22T12:40:10.652Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d9196a",
+   :_rev "1-921b5e8673f5321b944dc311688d5867",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Syrian"],
+   :updated_at "2014-08-23T18:51:31.454Z",
+   :user_id "A2QHW6YQY7VGHJ",
+   :question_id "0374427fda8b64f189cecbd2ef007213",
+   :created_at "2014-08-23T18:51:31.454Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dc9de3",
+   :_rev "1-97a388de00cff0b05e4f43af82feca58",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Syrian"],
+   :updated_at "2014-08-19T19:25:19.630Z",
+   :user_id "A2SYRFPPV9WDEG",
+   :question_id "0374427fda8b64f189cecbd2ef007213",
+   :created_at "2014-08-19T19:25:19.630Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dd2c2d",
+   :_rev "1-d1719c4722d1f3e089385deba42d44e1",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Syrian"],
+   :updated_at "2014-08-19T18:53:50.950Z",
+   :user_id "A2WDTJBM4ES5S4",
+   :question_id "0374427fda8b64f189cecbd2ef007213",
+   :created_at "2014-08-19T18:53:50.950Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8dbc150",
+   :_rev "1-97135a3c41c796bdff6d42e401b5725a",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Syrian"],
+   :updated_at "2014-08-20T01:32:47.498Z",
+   :user_id "A3FW9NWR6TJ4M9",
+   :question_id "0374427fda8b64f189cecbd2ef007213",
+   :created_at "2014-08-20T01:32:47.499Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dcd067",
+   :_rev "1-b408e6cd5aaf094e1b34dce92f014ced",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Hafez al-" "Syrian"],
+   :updated_at "2014-08-19T19:13:18.450Z",
+   :user_id "A3LXS3Y6NNTGG3",
+   :question_id "0374427fda8b64f189cecbd2ef007213",
+   :created_at "2014-08-19T19:13:18.450Z"}]]
+["0374427fda8b64f189cecbd2ef00a0a2"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8befe02",
+   :_rev "1-6171aa2855ec262e2a6b017b9207f2ca",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Israeli"],
+   :updated_at "2014-08-19T01:09:21.175Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef00a0a2",
+   :created_at "2014-08-19T01:09:21.175Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dec958",
+   :_rev "1-9869353d05ef90eed294e6fdf55ed9e5",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Israeli"],
+   :updated_at "2014-08-19T06:26:07.356Z",
+   :user_id "A199PKW9OWJOQV",
+   :question_id "0374427fda8b64f189cecbd2ef00a0a2",
+   :created_at "2014-08-19T06:26:07.356Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8de27c4",
+   :_rev "1-d98bac89f987fdec9e31bd98fed8a781",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Israeli"],
+   :updated_at "2014-08-19T17:42:10.024Z",
+   :user_id "A1G187YBG0DVMQ",
+   :question_id "0374427fda8b64f189cecbd2ef00a0a2",
+   :created_at "2014-08-19T17:42:10.024Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8de56e6",
+   :_rev "1-33347afe8406652a5f525de37b218247",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Israeli"],
+   :updated_at "2014-08-19T17:39:03.029Z",
+   :user_id "A1R0689JPSQ3OF",
+   :question_id "0374427fda8b64f189cecbd2ef00a0a2",
+   :created_at "2014-08-19T17:39:03.029Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d866b2",
+   :_rev "1-b993ab307070cd8106ecfd72a4bb74c9",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Israeli"],
+   :updated_at "2014-08-24T12:18:40.028Z",
+   :user_id "A1S3ZKCYKSVA8G",
+   :question_id "0374427fda8b64f189cecbd2ef00a0a2",
+   :created_at "2014-08-24T12:18:40.028Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8db684a",
+   :_rev "1-99b420ac4d9268d173746c9847cb0ac5",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Israeli"],
+   :updated_at "2014-08-20T06:47:39.370Z",
+   :user_id "A25QEOBUEVJ750",
+   :question_id "0374427fda8b64f189cecbd2ef00a0a2",
+   :created_at "2014-08-20T06:47:39.370Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dc2097",
+   :_rev "1-4bf75bab526f8df38bfb075343526d34",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Israeli"],
+   :updated_at "2014-08-19T20:45:26.948Z",
+   :user_id "A2AVWXK2DZHYCM",
+   :question_id "0374427fda8b64f189cecbd2ef00a0a2",
+   :created_at "2014-08-19T20:45:26.948Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8da343b",
+   :_rev "1-f6a9e681abb519e4a3fc7ef08d1c16a5",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Israeli"],
+   :updated_at "2014-08-22T12:40:04.593Z",
+   :user_id "A2OAFDRBQTWR2Q",
+   :question_id "0374427fda8b64f189cecbd2ef00a0a2",
+   :created_at "2014-08-22T12:40:04.594Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d942f7",
+   :_rev "1-bff0b3dfbb59deeb0c34afea315c27c6",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Israeli"],
+   :updated_at "2014-08-23T10:35:22.676Z",
+   :user_id "A3DN99QMIS1RJ5",
+   :question_id "0374427fda8b64f189cecbd2ef00a0a2",
+   :created_at "2014-08-23T10:35:22.676Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8d7854e",
+   :_rev "1-dbf3efe4ca63e49eb08951f4516931ea",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["David Levy" "Israeli"],
+   :updated_at "2014-08-24T15:58:19.463Z",
+   :user_id "A3TT428V461KZN",
+   :question_id "0374427fda8b64f189cecbd2ef00a0a2",
+   :created_at "2014-08-24T15:58:19.463Z"}]]
+["0374427fda8b64f189cecbd2ef0125ba"
+ [{:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8fb10e4",
+   :_rev "1-2e9b9346826c08dd56c389f2655b4b2f",
+   :sentence
+   "Yasser Arafat will meet Shimon Peres in Gaza on Thursday after Palestinians said the right-wing Israeli government had barred the Palestinian leader from flying to the West Bank for talks with the former prime minister .",
+   :type "Annotation",
+   :args_text ["Yasser Arafat" "Palestinians"],
+   :updated_at "2014-08-26T00:26:21.734Z",
+   :user_id "A20WZVH48GFZ6V",
+   :question_id "0374427fda8b64f189cecbd2ef0125ba",
+   :created_at "2014-08-26T00:26:21.734Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "e96a98114e2be14c1c91a861761b822b",
+   :_rev "1-ae8e83d4c29e1fde8ac92b06023e581f",
+   :sentence
+   "Yasser Arafat will meet Shimon Peres in Gaza on Thursday after Palestinians said the right-wing Israeli government had barred the Palestinian leader from flying to the West Bank for talks with the former prime minister .",
+   :type "Annotation",
+   :args_text ["Yasser Arafat" "Palestinians"],
+   :updated_at "2014-08-26T14:49:05.300Z",
+   :user_id "A2VGEE0ZIZ8CBQ",
+   :question_id "0374427fda8b64f189cecbd2ef0125ba",
+   :created_at "2014-08-26T14:49:05.300Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8f9b3e2",
+   :_rev "1-313359e9ff6958dbd4408e032b9f206c",
+   :sentence
+   "Yasser Arafat will meet Shimon Peres in Gaza on Thursday after Palestinians said the right-wing Israeli government had barred the Palestinian leader from flying to the West Bank for talks with the former prime minister .",
+   :type "Annotation",
+   :args_text ["Yasser Arafat" "Palestinians"],
+   :updated_at "2014-08-26T02:56:01.157Z",
+   :user_id "A36CA84QRHPL2Z",
+   :question_id "0374427fda8b64f189cecbd2ef0125ba",
+   :created_at "2014-08-26T02:56:01.157Z"}
+  {:response [],
+   :_id "e96a98114e2be14c1c91a861761b574a",
+   :_rev "1-344ea1c45ca5515cffe7fcafe8178015",
+   :sentence
+   "Yasser Arafat will meet Shimon Peres in Gaza on Thursday after Palestinians said the right-wing Israeli government had barred the Palestinian leader from flying to the West Bank for talks with the former prime minister .",
+   :type "Annotation",
+   :args_text ["Yasser Arafat" "Palestinians"],
+   :updated_at "2014-08-26T15:26:34.396Z",
+   :user_id "A3V7PZKF0VJS4R",
+   :question_id "0374427fda8b64f189cecbd2ef0125ba",
+   :created_at "2014-08-26T15:26:34.396Z"}
+  {:response [],
+   :_id "e96a98114e2be14c1c91a861761b5c20",
+   :_rev "1-eb73a2626ce199917e5fee307d6a51f9",
+   :sentence
+   "Yasser Arafat will meet Shimon Peres in Gaza on Thursday after Palestinians said the right-wing Israeli government had barred the Palestinian leader from flying to the West Bank for talks with the former prime minister .",
+   :type "Annotation",
+   :args_text ["Yasser Arafat" "Palestinians"],
+   :updated_at "2014-08-26T15:26:31.684Z",
+   :user_id "A3V7PZKF0VJS4R",
+   :question_id "0374427fda8b64f189cecbd2ef0125ba",
+   :created_at "2014-08-26T15:26:31.684Z"}]]
+["0374427fda8b64f189cecbd2ef010b62"
+ [{:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "e96a98114e2be14c1c91a861761c42f6",
+   :_rev "1-36c351a4202cd17a2104409d0dfdcfc3",
+   :sentence
+   "Palestinian officials accused right-wing Prime Minister Benjamin Netanyahu of trying to stop the Ramallah meeting by keeping Arafat grounded .",
+   :type "Annotation",
+   :args_text ["Arafat" "Palestinian"],
+   :updated_at "2014-08-26T14:05:23.025Z",
+   :user_id "A1K9BRASEIGGHL",
+   :question_id "0374427fda8b64f189cecbd2ef010b62",
+   :created_at "2014-08-26T14:05:23.025Z"}
+  {:response [],
+   :_id "e96a98114e2be14c1c91a861761c99f7",
+   :_rev "1-d5982d4f8bf7f8fb9050f9c67f3933d4",
+   :sentence
+   "Palestinian officials accused right-wing Prime Minister Benjamin Netanyahu of trying to stop the Ramallah meeting by keeping Arafat grounded .",
+   :type "Annotation",
+   :args_text ["Arafat" "Palestinian"],
+   :updated_at "2014-08-26T12:20:02.599Z",
+   :user_id "A1XVYOL52UT8T9",
+   :question_id "0374427fda8b64f189cecbd2ef010b62",
+   :created_at "2014-08-26T12:20:02.599Z"}
+  {:response [],
+   :_id "e96a98114e2be14c1c91a861761baf13",
+   :_rev "1-a4f6eb7edaa2c3fe6e4f6fc748ed04b9",
+   :sentence
+   "Palestinian officials accused right-wing Prime Minister Benjamin Netanyahu of trying to stop the Ramallah meeting by keeping Arafat grounded .",
+   :type "Annotation",
+   :args_text ["Arafat" "Palestinian"],
+   :updated_at "2014-08-26T14:48:10.081Z",
+   :user_id "A2VGEE0ZIZ8CBQ",
+   :question_id "0374427fda8b64f189cecbd2ef010b62",
+   :created_at "2014-08-26T14:48:10.081Z"}
+  {:response [],
+   :_id "e96a98114e2be14c1c91a861761bbb37",
+   :_rev "1-5432170719fc6c173087f8cb93c7a2d3",
+   :sentence
+   "Palestinian officials accused right-wing Prime Minister Benjamin Netanyahu of trying to stop the Ramallah meeting by keeping Arafat grounded .",
+   :type "Annotation",
+   :args_text ["Arafat" "Palestinian"],
+   :updated_at "2014-08-26T14:48:07.273Z",
+   :user_id "A2VGEE0ZIZ8CBQ",
+   :question_id "0374427fda8b64f189cecbd2ef010b62",
+   :created_at "2014-08-26T14:48:07.273Z"}
+  {:response [],
+   :_id "e96a98114e2be14c1c91a861761bca46",
+   :_rev "1-be719319e4b0afa86397a67f0fd089f1",
+   :sentence
+   "Palestinian officials accused right-wing Prime Minister Benjamin Netanyahu of trying to stop the Ramallah meeting by keeping Arafat grounded .",
+   :type "Annotation",
+   :args_text ["Arafat" "Palestinian"],
+   :updated_at "2014-08-26T14:48:04.583Z",
+   :user_id "A2VGEE0ZIZ8CBQ",
+   :question_id "0374427fda8b64f189cecbd2ef010b62",
+   :created_at "2014-08-26T14:48:04.583Z"}
+  {:response [],
+   :_id "e96a98114e2be14c1c91a861761bd274",
+   :_rev "1-99dd175491c625e825199269301e5e79",
+   :sentence
+   "Palestinian officials accused right-wing Prime Minister Benjamin Netanyahu of trying to stop the Ramallah meeting by keeping Arafat grounded .",
+   :type "Annotation",
+   :args_text ["Arafat" "Palestinian"],
+   :updated_at "2014-08-26T14:48:01.825Z",
+   :user_id "A2VGEE0ZIZ8CBQ",
+   :question_id "0374427fda8b64f189cecbd2ef010b62",
+   :created_at "2014-08-26T14:48:01.825Z"}
+  {:response [],
+   :_id "e96a98114e2be14c1c91a861761bd332",
+   :_rev "1-06cac1aa26c65c677a8fbcba41c63a31",
+   :sentence
+   "Palestinian officials accused right-wing Prime Minister Benjamin Netanyahu of trying to stop the Ramallah meeting by keeping Arafat grounded .",
+   :type "Annotation",
+   :args_text ["Arafat" "Palestinian"],
+   :updated_at "2014-08-26T14:47:56.524Z",
+   :user_id "A2VGEE0ZIZ8CBQ",
+   :question_id "0374427fda8b64f189cecbd2ef010b62",
+   :created_at "2014-08-26T14:47:56.524Z"}]]
+["0374427fda8b64f189cecbd2ef008cce"
+ [{:response [],
+   :_id "556c2ee63030c09d4697a67db8deeb81",
+   :_rev "1-90216fb7039fb6e53f095329c7e156d7",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Israeli"],
+   :updated_at "2014-08-19T06:20:52.483Z",
+   :user_id "A199PKW9OWJOQV",
+   :question_id "0374427fda8b64f189cecbd2ef008cce",
+   :created_at "2014-08-19T06:20:52.483Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8de1d77",
+   :_rev "1-ff5cc292f267fc4fdd8dd5f00b830b13",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Israeli"],
+   :updated_at "2014-08-19T17:42:21.276Z",
+   :user_id "A1G187YBG0DVMQ",
+   :question_id "0374427fda8b64f189cecbd2ef008cce",
+   :created_at "2014-08-19T17:42:21.276Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8de6d1d",
+   :_rev "1-499553579206fdbe1ba09c21f4dc8de4",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Israeli"],
+   :updated_at "2014-08-19T17:38:31.062Z",
+   :user_id "A1R0689JPSQ3OF",
+   :question_id "0374427fda8b64f189cecbd2ef008cce",
+   :created_at "2014-08-19T17:38:31.062Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d9944e",
+   :_rev "1-5b701cc20c99edad1b063b2551d79da4",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Israeli"],
+   :updated_at "2014-08-23T10:29:23.821Z",
+   :user_id "A1RSAU5I9NZTOP",
+   :question_id "0374427fda8b64f189cecbd2ef008cce",
+   :created_at "2014-08-23T10:29:23.821Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8be87bf",
+   :_rev "1-9da1ff4637b5f9be54ceb665107aec6c",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Israeli"],
+   :updated_at "2014-08-19T02:20:21.581Z",
+   :user_id "A2LCFORIW0NF1S",
+   :question_id "0374427fda8b64f189cecbd2ef008cce",
+   :created_at "2014-08-19T02:20:21.581Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8da15d8",
+   :_rev "1-f6e3b8436bdcc94803989d4998e7c2c9",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Israeli"],
+   :updated_at "2014-08-22T12:40:57.345Z",
+   :user_id "A2OAFDRBQTWR2Q",
+   :question_id "0374427fda8b64f189cecbd2ef008cce",
+   :created_at "2014-08-22T12:40:57.345Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d92b03",
+   :_rev "1-f48c7876ca100e9c15490f434fd2dda9",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Israeli"],
+   :updated_at "2014-08-23T18:49:12.751Z",
+   :user_id "A2QHW6YQY7VGHJ",
+   :question_id "0374427fda8b64f189cecbd2ef008cce",
+   :created_at "2014-08-23T18:49:12.751Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dc7569",
+   :_rev "1-95310fbc4dcdbe082a3a55a4266e5565",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Israeli"],
+   :updated_at "2014-08-19T19:26:18.668Z",
+   :user_id "A2SYRFPPV9WDEG",
+   :question_id "0374427fda8b64f189cecbd2ef008cce",
+   :created_at "2014-08-19T19:26:18.669Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d962fb",
+   :_rev "1-d93ca9ce92ad5049a06844b03397f957",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Israeli"],
+   :updated_at "2014-08-23T10:33:42.948Z",
+   :user_id "A3DN99QMIS1RJ5",
+   :question_id "0374427fda8b64f189cecbd2ef008cce",
+   :created_at "2014-08-23T10:33:42.948Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dceae7",
+   :_rev "1-a3a1e6c64e13b0f9f518d2a6bab374fc",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Israeli"],
+   :updated_at "2014-08-19T19:13:02.195Z",
+   :user_id "A3LXS3Y6NNTGG3",
+   :question_id "0374427fda8b64f189cecbd2ef008cce",
+   :created_at "2014-08-19T19:13:02.195Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8d7a3fe",
+   :_rev "1-99333752cdb9eecbd1889086446d3337",
+   :sentence
+   "\" The message that we sent to ( Syrian President Hafez al- ) Assad is that Israel is ready at any time without preconditions to enter peace negotiations , \" Israeli Foreign Minister David Levy told Israel Radio in an interview .",
+   :type "Annotation",
+   :args_text ["Assad" "Israeli"],
+   :updated_at "2014-08-24T15:57:17.855Z",
+   :user_id "A3TT428V461KZN",
+   :question_id "0374427fda8b64f189cecbd2ef008cce",
+   :created_at "2014-08-24T15:57:17.855Z"}]]
+["0374427fda8b64f189cecbd2ef000ce4"
+ [{:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8bef4e6",
+   :_rev "1-05aa7ed70dac7ab2a48960c6e136d69b",
+   :sentence
+   "Germany 's representative to the European Union 's veterinary committee Werner Zwingmann said on Wednesday consumers should buy sheepmeat from countries other than Britain until the scientific advice was clearer .",
+   :type "Annotation",
+   :args_text ["Werner Zwingmann" "Germany"],
+   :updated_at "2014-08-19T01:10:03.257Z",
+   :user_id "A111JI6APXR6QV",
+   :question_id "0374427fda8b64f189cecbd2ef000ce4",
+   :created_at "2014-08-19T01:10:03.257Z"}
+  {:response [],
+   :_id "556c2ee63030c09d4697a67db8dede88",
+   :_rev "1-c8eeb349b3fb4f5db13fc3a58e17392a",
+   :sentence
+   "Germany 's representative to the European Union 's veterinary committee Werner Zwingmann said on Wednesday consumers should buy sheepmeat from countries other than Britain until the scientific advice was clearer .",
+   :type "Annotation",
+   :args_text ["Werner Zwingmann" "Germany"],
+   :updated_at "2014-08-19T06:24:49.054Z",
+   :user_id "A199PKW9OWJOQV",
+   :question_id "0374427fda8b64f189cecbd2ef000ce4",
+   :created_at "2014-08-19T06:24:49.054Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8de138d",
+   :_rev "1-649b82c9b846f0e8845711f0030678b2",
+   :sentence
+   "Germany 's representative to the European Union 's veterinary committee Werner Zwingmann said on Wednesday consumers should buy sheepmeat from countries other than Britain until the scientific advice was clearer .",
+   :type "Annotation",
+   :args_text ["Werner Zwingmann" "Germany"],
+   :updated_at "2014-08-19T17:42:27.460Z",
+   :user_id "A1G187YBG0DVMQ",
+   :question_id "0374427fda8b64f189cecbd2ef000ce4",
+   :created_at "2014-08-19T17:42:27.460Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8de8b4b",
+   :_rev "1-7b7b06930f56e1a954e2a3fb20cf8175",
+   :sentence
+   "Germany 's representative to the European Union 's veterinary committee Werner Zwingmann said on Wednesday consumers should buy sheepmeat from countries other than Britain until the scientific advice was clearer .",
+   :type "Annotation",
+   :args_text ["Werner Zwingmann" "Germany"],
+   :updated_at "2014-08-19T17:37:44.013Z",
+   :user_id "A1R0689JPSQ3OF",
+   :question_id "0374427fda8b64f189cecbd2ef000ce4",
+   :created_at "2014-08-19T17:37:44.013Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8da0a8b",
+   :_rev "1-cd3977ec154e98a2e82abf976a35cab4",
+   :sentence
+   "Germany 's representative to the European Union 's veterinary committee Werner Zwingmann said on Wednesday consumers should buy sheepmeat from countries other than Britain until the scientific advice was clearer .",
+   :type "Annotation",
+   :args_text ["Werner Zwingmann" "Germany"],
+   :updated_at "2014-08-22T12:41:17.976Z",
+   :user_id "A2OAFDRBQTWR2Q",
+   :question_id "0374427fda8b64f189cecbd2ef000ce4",
+   :created_at "2014-08-22T12:41:17.976Z"}
+  {:response
+   [{:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}
+    {:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8de0127",
+   :_rev "1-27973bb6938294f97806a9c0a35749e3",
+   :sentence
+   "Germany 's representative to the European Union 's veterinary committee Werner Zwingmann said on Wednesday consumers should buy sheepmeat from countries other than Britain until the scientific advice was clearer .",
+   :type "Annotation",
+   :args_text ["Werner Zwingmann" "Germany"],
+   :updated_at "2014-08-19T17:58:34.854Z",
+   :user_id "A30JJ6BYT6ZAOO",
+   :question_id "0374427fda8b64f189cecbd2ef000ce4",
+   :created_at "2014-08-19T17:58:34.854Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8d95a81",
+   :_rev "1-7c19518ce83bebe97dda8afc82e41673",
+   :sentence
+   "Germany 's representative to the European Union 's veterinary committee Werner Zwingmann said on Wednesday consumers should buy sheepmeat from countries other than Britain until the scientific advice was clearer .",
+   :type "Annotation",
+   :args_text ["Werner Zwingmann" "Germany"],
+   :updated_at "2014-08-23T10:34:21.307Z",
+   :user_id "A3DN99QMIS1RJ5",
+   :question_id "0374427fda8b64f189cecbd2ef000ce4",
+   :created_at "2014-08-23T10:34:21.307Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}],
+   :_id "556c2ee63030c09d4697a67db8dcf12f",
+   :_rev "1-39d497bcd2850ed8fa79c55b3c5740a0",
+   :sentence
+   "Germany 's representative to the European Union 's veterinary committee Werner Zwingmann said on Wednesday consumers should buy sheepmeat from countries other than Britain until the scientific advice was clearer .",
+   :type "Annotation",
+   :args_text ["Werner Zwingmann" "Germany"],
+   :updated_at "2014-08-19T19:12:44.635Z",
+   :user_id "A3LXS3Y6NNTGG3",
+   :question_id "0374427fda8b64f189cecbd2ef000ce4",
+   :created_at "2014-08-19T19:12:44.635Z"}
+  {:response
+   [{:relation_display_name "was born in",
+     :relation "/people/person/place_of_birth"}],
+   :_id "556c2ee63030c09d4697a67db8daad3f",
+   :_rev "1-5cd960fa4a59e2db5baffcdf907a6181",
+   :sentence
+   "Germany 's representative to the European Union 's veterinary committee Werner Zwingmann said on Wednesday consumers should buy sheepmeat from countries other than Britain until the scientific advice was clearer .",
+   :type "Annotation",
+   :args_text ["Werner Zwingmann" "Germany"],
+   :updated_at "2014-08-21T14:33:27.981Z",
+   :user_id "A3QZMGTVA4VO44",
+   :question_id "0374427fda8b64f189cecbd2ef000ce4",
+   :created_at "2014-08-21T14:33:27.981Z"}
+  {:response
+   [{:relation_display_name "has nationality",
+     :relation "/people/person/nationality"}
+    {:relation_display_name "lived in",
+     :relation
+     "/people/person/places_lived|/people/place_lived/location"}],
+   :_id "556c2ee63030c09d4697a67db8d7b52e",
+   :_rev "1-2c3bd96499ae57ca0d5a987466b8f1e2",
+   :sentence
+   "Germany 's representative to the European Union 's veterinary committee Werner Zwingmann said on Wednesday consumers should buy sheepmeat from countries other than Britain until the scientific advice was clearer .",
+   :type "Annotation",
+   :args_text ["Werner Zwingmann" "Germany"],
+   :updated_at "2014-08-24T15:56:31.909Z",
+   :user_id "A3TT428V461KZN",
+   :question_id "0374427fda8b64f189cecbd2ef000ce4",
+   :created_at "2014-08-24T15:56:31.909Z"}]]

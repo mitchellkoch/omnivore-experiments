@@ -13,7 +13,8 @@
             [omnivore-experiments.freebase :as fb]
             [omnivore-experiments.multir :as multir]
             [omnivore-experiments.uclassify :as uclassify]
-            [bigml.sampling [reservoir :as reservoir]]))
+            [bigml.sampling [reservoir :as reservoir]]
+            [com.ashafa.clutch :as clutch]))
 
 (set-fipe-dir! "data")
 
@@ -153,6 +154,28 @@
    (dep "knowledge-bases/target-relations-types.edn")
    (dep "aida-yago2-docs-relinsts-combined.json")))
 
+(defn filter-questions-to-rels [new-answers target-relations-display-names-file questions-file]
+  (let [rels (map :relation new-answers)]
+    (for [{:keys [answers] :as question} (first (read-from-file questions-file))
+          :when (some (set rels) (map :relation answers))]
+      (assoc question :answers new-answers))))
+
+(def perloc-answers
+  [{:relation "/people/person/nationality"
+    :relation-display-name "has nationality"}
+   {:relation "/people/person/place_of_birth"
+    :relation-display-name "was born in"}
+   {:relation "/people/person/places_lived|/people/place_lived/location"
+    :relation-display-name "lived in"}
+   {:relation "/people/deceased_person/place_of_death"
+    :relation-display-name "died in"}])
+
+(deftarget "aida-yago2-docs-questions-perloc.json"
+  (filter-questions-to-rels 
+   perloc-answers
+   (dep "knowledge-bases/target-relations-display-names.tsv")
+   (dep "aida-yago2-docs-questions.json")))
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Use data from Ce Zhang, et al. - ACL 2012
 
@@ -208,3 +231,61 @@
 (deftarget "ce-zhang-acl-12/sample-10-11-agreement.csv"
   (for [relinst (take 100 (shuffle (get-agreed-relinsts (dep "ce-zhang-acl-12/relinsts.edn.gz") 10)))]
     ((juxt :fact-display :sentence :relation :answer) relinst)))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Mechanical Turk Results
+
+(defn question_id->info [question_id]
+  (let [question (clutch/get-document "praxeng2_development" question_id)
+        sent_idx (-> question :args first :sent_idx)
+        document (read-from-file (str "data/aida-yago2-docs-preprocessed/" (:doc_name question) ".ser.gz"))
+        sentence (nth (multir/get-sentences document) sent_idx)]
+    {:sentence (str sentence) :args_text (vec (for [arg (:args question)]
+                                                 (if (:mention_text arg)
+                                                   (:mention_text arg)
+                                                   (:text arg))))}))
+
+(defn get-praxeng-mturk-results []
+  (let [mturk_anns
+        (->> (clutch/all-documents "praxeng2_development" {:include_docs true})
+             (map :doc)
+             (filter #(= "Annotation" (:type %)))
+             (filter #(re-matches #"A\w{13}" (:user_id %)))
+             (sort-by :user_id))]
+    (for [{:keys [question_id] :as ann} mturk_anns
+          :let [question-info (question_id->info question_id)]]
+      (merge ann question-info))))
+
+(deftarget "praxeng-mturk-results.csv"
+  (let [mturk_anns
+        (->> (clutch/all-documents "praxeng2_development" {:include_docs true})
+             (map :doc)
+             (filter #(= "Annotation" (:type %)))
+             (filter #(re-matches #"A\w{13}" (:user_id %)))
+             (sort-by :user_id))]
+    (for [{:keys [user_id question_id updated_at response]} mturk_anns
+          :let [{:keys [sentence args_text]} (question_id->info question_id)]]
+      [user_id 
+       (->> response (map :relation_display_name) 
+            (str/join " & "))
+       sentence
+       args_text
+       updated_at
+       question_id])))
+
+(deftarget "praxeng-mturk-5ans-set.edn"
+  (->> (get-praxeng-mturk-results)
+       (group-by :question_id)
+       (filter #(>= (count (second %)) 5))))
+
+(deftarget "praxeng-mturk-5ans-gold.csv"
+  (for [[question_id [{:keys [sentence args_text]} & _]] (read-from-file (dep "praxeng-mturk-5ans-set.edn"))]
+    [question_id sentence args_text]))
+
+(deftarget "praxeng-mturk-5ans-agree.csv"
+  (for [[question_id answers] (read-from-file (dep "praxeng-mturk-5ans-set.edn"))
+        :let [str-answer (->> answers (sort-by :created_at) reverse (take 5)
+                              (map str-response)
+                              frequencies ;seq (sort-by second) last first
+                              )]]
+    [question_id (:sentence (first answers)) (:args_text (first answers)) str-answer]))

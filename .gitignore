@@ -22,3 +22,4 @@ pom.xml.asc
 /data/parallelnews
 *.gz
 data/ce-zhang-acl-12
+data/aida-yago2-docs-questions-perloc.json

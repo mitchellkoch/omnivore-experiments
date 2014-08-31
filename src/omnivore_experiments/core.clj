@@ -278,9 +278,9 @@
        (group-by :question_id)
        (filter #(>= (count (second %)) 5))))
 
-(deftarget "praxeng-mturk-5ans-gold.csv"
-  (for [[question_id [{:keys [sentence args_text]} & _]] (read-from-file (dep "praxeng-mturk-5ans-set.edn"))]
-    [question_id sentence args_text]))
+(defn str-response [answer]
+  (->> answer :response (map :relation_display_name)
+       sort (str/join " & ")))
 
 (deftarget "praxeng-mturk-5ans-agree.csv"
   (for [[question_id answers] (read-from-file (dep "praxeng-mturk-5ans-set.edn"))
@@ -289,3 +289,71 @@
                               frequencies ;seq (sort-by second) last first
                               )]]
     [question_id (:sentence (first answers)) (:args_text (first answers)) str-answer]))
+
+(deftarget "praxeng-mturk-5ans-gold40.csv"
+  (for [[question_id [{:keys [sentence args_text]} & _]] 
+        (take 40 (shuffle (read-from-file (dep "praxeng-mturk-5ans-set.edn"))))]
+    [question_id sentence args_text]))
+
+(defn eliminate-workers-using-gold [gold-file mturk-ans-file num-control threshold]
+  (let [gold (read-from-file gold-file)
+        control-ids (take num-control gold-file)
+        mutrk-ans (->> (read-from-file mturk-ans-file)
+                       (filter #((set control-ids) (first %))))
+        id->gold (into {} (for [[id _ _ str-answer] gold
+                                :let [answer (str/split str-answer #" & ")
+                                      answer (if (= [""] answer) [] answer)
+                                      answer (set answer)]]
+                            [id answer]))
+        by-worker (->> mturk-ans
+                       (map second) aconcat
+                       (group-by :user_id))
+        removed-workers (for [[worker-id answers] by-worker
+                              :let [num-correct (count
+                                                 (for [answer answers
+                                                       :let [gold-rels (id->gold (:question_id answer))
+                                                             response-rels (->> answer :response (map :relation_display_name) set)]
+                                                       :when (= gold-rels response-rels)]
+                                                   1))]
+                              :when (< (/ num-correct (count answers)) threshold)]
+                          worker-id)]
+    removed-workers))
+
+(deftarget "praxeng-mturk-removed-workers.edn"
+  (eliminate-workers-using-gold (dep "praxeng-mturk-5ans-gold40.csv") (dep "praxeng-mturk-5ans-set.edn") 20 0.5))
+
+(defn str-answer->set [str-answer]
+  (let [answer (str/split str-answer #" & ")
+        answer (if (= [""] answer) [] answer)
+        answer (set answer)]
+    answer))
+
+(defn test-against-gold [gold-file mturk-ans-file removed-workers-file]
+  (let [gold (read-from-file gold-file)
+        id->gold (into {} (for [[id _ _ str-answer] gold
+                                :let [answer (str/split str-answer #" & ")
+                                      answer (if (= [""] answer) [] answer)
+                                      answer (set answer)]]
+                            [id answer]))
+        removed-workers (set (read-from-file removed-workers-file))]
+    (for [[question_id answers] (read-from-file mturk-ans-file)
+          :when (id->gold question_id)
+          :let [answers (filter #((complement removed-workers) (:user_id %)) answers)
+                str-answer (->> answers (sort-by :created_at) reverse (take 5)
+                                (map str-response)
+                                frequencies 
+                                )
+                final-str-answer (->> str-answer
+                                      seq (sort-by second) last first)]]
+      [question_id 
+       (:sentence (first answers))
+       (:args_text (first answers))
+       str-answer
+       (id->gold question_id)
+       (if (= (id->gold question_id) (str-answer->set final-str-answer))
+         1 0)])))
+
+(deftarget "praxeng-mturk-test.csv"
+  (test-against-gold (dep "praxeng-mturk-5ans-gold40.csv") 
+                     (dep "praxeng-mturk-5ans-set.edn") 
+                     (dep "praxeng-mturk-removed-workers.edn")))

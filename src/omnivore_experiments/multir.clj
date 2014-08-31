@@ -7,7 +7,7 @@
             [clojure.java.io :as io]
             [me.raynes.fs :as fs]
             [wharf.core :as wharf]
-            iroh.core
+            iroh.core.apply
             [omnivore-experiments.freebase :as fb])
   (:import edu.stanford.nlp.util.CoreMap
            edu.stanford.nlp.ling.CoreLabel
@@ -94,7 +94,7 @@
 
 ;; Might allow duplicate nelAnnotations if they have different char spans in the original, but their token spans are the same
 (defn preprocess-doc [doc-map]
-  (iroh.core/apply-element CorpusPreprocessing "pipeline" [CorpusPreprocessing @corenlp-pipeline-for-preprocessor]) ; set private static pipeline field
+  (iroh.core.apply/apply-element CorpusPreprocessing "pipeline" [CorpusPreprocessing @corenlp-pipeline-for-preprocessor]) ; set private static pipeline field
   (let [doc-obj (CorpusPreprocessing/getTestDocumentFromRawString (:text doc-map) (:doc-name doc-map))]
     (doseq [[sentidx ^CoreMap sentence] (indexed (get-sentences doc-obj))
             :let [sentence-mentions (filter #(= (:sent-idx %) sentidx) (:nel-annotations doc-map))

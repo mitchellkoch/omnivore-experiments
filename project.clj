@@ -9,7 +9,7 @@
                  [cheshire "5.3.1"]
                  [me.raynes/fs "1.4.5"]
                  [http-kit "2.1.16"]
-                 [im.chit/iroh "0.1.5"]
+                 [im.chit/iroh "0.1.11"]
                  [alandipert/enduro "1.1.5"]
                  [slingshot "0.10.3"]
                  [org.flatland/ordered "1.5.2"]

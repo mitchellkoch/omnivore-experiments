@@ -23,3 +23,6 @@ pom.xml.asc
 *.gz
 data/ce-zhang-acl-12
 data/aida-yago2-docs-questions-perloc.json
+data/praxeng-mturk-removed-workers.edn
+data/praxeng-mturk-5ans-agree 2.numbers
+data/2014-08-29 praxeng-mturk-5ans-gold40.csv

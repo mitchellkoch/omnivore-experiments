@@ -235,22 +235,27 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Mechanical Turk Results
 
-(defn question_id->info [question_id]
-  (let [question (clutch/get-document "praxeng2_development" question_id)
-        sent_idx (-> question :args first :sent_idx)
+(defn question->info [question]
+  (let [sent_idx (-> question :args first :sent_idx)
         document (read-from-file (str "data/aida-yago2-docs-preprocessed/" (:doc_name question) ".ser.gz"))
         sentence (nth (multir/get-sentences document) sent_idx)]
     {:sentence (str sentence) :args_text (vec (for [arg (:args question)]
-                                                 (if (:mention_text arg)
-                                                   (:mention_text arg)
-                                                   (:text arg))))}))
+                                                (if (:mention_text arg)
+                                                  (:mention_text arg)
+                                                  (:text arg))))}))
+
+(defn question_id->info [question_id]
+  (let [question (clutch/get-document "praxeng2_development" question_id)]
+    (question->info question)))
+
+(def amt-id-regex #"A[A-Z0-9]+")
 
 (defn get-praxeng-mturk-results []
   (let [mturk_anns
         (->> (clutch/all-documents "praxeng2_development" {:include_docs true})
              (map :doc)
              (filter #(= "Annotation" (:type %)))
-             (filter #(re-matches #"A\w{13}" (:user_id %)))
+             (filter #(re-matches amt-id-regex (str/trim (:user_id %))))
              (sort-by :user_id))]
     (for [{:keys [question_id] :as ann} mturk_anns
           :let [question-info (question_id->info question_id)]]
@@ -261,7 +266,7 @@
         (->> (clutch/all-documents "praxeng2_development" {:include_docs true})
              (map :doc)
              (filter #(= "Annotation" (:type %)))
-             (filter #(re-matches #"A\w{13}" (:user_id %)))
+             (filter #(re-matches amt-id-regex (:user_id %)))
              (sort-by :user_id))]
     (for [{:keys [user_id question_id updated_at response]} mturk_anns
           :let [{:keys [sentence args_text]} (question_id->info question_id)]]
@@ -273,7 +278,29 @@
        updated_at
        question_id])))
 
-(deftarget "praxeng-mturk-5ans-set.edn"
+(deftarget "praxeng-perloc-questions.edn.gz"
+  (for [question (->>
+                  (clutch/all-documents "praxeng2_development" {:include_docs true})
+                  (map :doc)
+                  (filter #(= "Question" (:type %))))] 
+    (merge question (question->info question))))
+
+(deftarget "praxeng-perloc-answers-byquestion.edn.gz"
+  (let [questions (read-from-file (dep "praxeng-perloc-questions.edn.gz"))
+        qid->qidx (into {} (map vector (map :_id questions) (range)))
+        annotations (->> (clutch/all-documents "praxeng2_development" {:include_docs true})
+                         (map :doc)
+                         (filter #(= "Annotation" (:type %))))]
+    (->> (group-by (comp qid->qidx :question_id) annotations)
+         vec
+         (sort-by first))))
+
+(deftarget "praxeng-perloc-answer-counts.csv"
+  (for [[qidx answers] (read-from-file (dep "praxeng-perloc-answers-byquestion.edn.gz"))
+        :let [valid-mturk-answers (filter #(re-matches amt-id-regex (str/trim (:user_id %))) answers)]]
+    [qidx (count valid-mturk-answers) (count answers)]))
+
+(deftarget "praxeng-mturk-5ans-set.edn.gz"
   (->> (get-praxeng-mturk-results)
        (group-by :question_id)
        (filter #(>= (count (second %)) 5))))
@@ -298,7 +325,7 @@
 (defn eliminate-workers-using-gold [gold-file mturk-ans-file num-control threshold]
   (let [gold (read-from-file gold-file)
         control-ids (take num-control gold-file)
-        mutrk-ans (->> (read-from-file mturk-ans-file)
+        mturk-ans (->> (read-from-file mturk-ans-file)
                        (filter #((set control-ids) (first %))))
         id->gold (into {} (for [[id _ _ str-answer] gold
                                 :let [answer (str/split str-answer #" & ")
